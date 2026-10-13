@@ -1,0 +1,461 @@
+{
+  "source": "VCTK Corpus 0.92 (CSTR, University of Edinburgh) - speakers consented to research use",
+  "source_url": "https://datashare.ed.ac.uk/handle/10283/3443",
+  "license": "CC BY 4.0 (attribution: Yamagishi, Veaux, MacDonald, CSTR VCTK Corpus 0.92)",
+  "mirror": "https://huggingface.co/datasets/sanchit-gandhi/vctk (via datasets-server rows API)",
+  "mic": "mic1",
+  "seed": 0,
+  "fetched_at": "2026-10-08T04:32:26.456193+00:00",
+  "speakers": [
+    {
+      "speaker_id": "p231",
+      "gender": "F",
+      "age": "23",
+      "accent": "English",
+      "region": "Southern England",
+      "clips": [
+        {
+          "file": "inputs/voices/p231/p231_138_mic1.flac",
+          "text": "In this case, the farmer had actually given permission.",
+          "text_id": "138",
+          "role": "reference"
+        },
+        {
+          "file": "inputs/voices/p231/p231_117_mic1.flac",
+          "text": "It is much as it has been described.",
+          "text_id": "117",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p231/p231_142_mic1.flac",
+          "text": "It only increased the support for him.",
+          "text_id": "142",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p231/p231_119_mic1.flac",
+          "text": "It is a delight on every level.",
+          "text_id": "119",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p231/p231_094_mic1.flac",
+          "text": "You are like an animal.",
+          "text_id": "094",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p231/p231_109_mic1.flac",
+          "text": "We needed financial backing to get it off the ground.",
+          "text_id": "109",
+          "role": "target"
+        }
+      ]
+    },
+    {
+      "speaker_id": "p244",
+      "gender": "F",
+      "age": "22",
+      "accent": "English",
+      "region": "Manchester",
+      "clips": [
+        {
+          "file": "inputs/voices/p244/p244_017_mic1.flac",
+          "text": "Others have tried to explain the phenomenon physically.",
+          "text_id": "017",
+          "role": "reference"
+        },
+        {
+          "file": "inputs/voices/p244/p244_034_mic1.flac",
+          "text": "These awards will deliver improvements on the ground.",
+          "text_id": "034",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p244/p244_028_mic1.flac",
+          "text": "I am not interested in the money, it is the principle.",
+          "text_id": "028",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p244/p244_022_mic1.flac",
+          "text": "The actual primary rainbow observed is said to be the effect of super-imposition of a number of bows.",
+          "text_id": "022",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p244/p244_033_mic1.flac",
+          "text": "It is on the internet.",
+          "text_id": "033",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p244/p244_025_mic1.flac",
+          "text": "We are a service industry.",
+          "text_id": "025",
+          "role": "target"
+        }
+      ]
+    },
+    {
+      "speaker_id": "p255",
+      "gender": "M",
+      "age": "19",
+      "accent": "Scottish",
+      "region": "Galloway",
+      "clips": [
+        {
+          "file": "inputs/voices/p255/p255_107_mic1.flac",
+          "text": "He leaves a wife, a son and a daughter.",
+          "text_id": "107",
+          "role": "reference"
+        },
+        {
+          "file": "inputs/voices/p255/p255_081_mic1.flac",
+          "text": "We have other options.",
+          "text_id": "081",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p255/p255_100_mic1.flac",
+          "text": "That time is not now, however.",
+          "text_id": "100",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p255/p255_076_mic1.flac",
+          "text": "What has changed?",
+          "text_id": "076",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p255/p255_086_mic1.flac",
+          "text": "We do not get that impression now.",
+          "text_id": "086",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p255/p255_117_mic1.flac",
+          "text": "They could not ignore the will of parliament, he claimed.",
+          "text_id": "117",
+          "role": "target"
+        }
+      ]
+    },
+    {
+      "speaker_id": "p265",
+      "gender": "F",
+      "age": "23",
+      "accent": "Scottish",
+      "region": "Ross",
+      "clips": [
+        {
+          "file": "inputs/voices/p265/p265_280_mic1.flac",
+          "text": "The condition of their adoption was that they should be kept together.",
+          "text_id": "280",
+          "role": "reference"
+        },
+        {
+          "file": "inputs/voices/p265/p265_314_mic1.flac",
+          "text": "In addition, certain areas are closed at certain times.",
+          "text_id": "314",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p265/p265_291_mic1.flac",
+          "text": "They included certain insurance policies, and his share of the house.",
+          "text_id": "291",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p265/p265_309_mic1.flac",
+          "text": "But no such amendment has been brought before the Scottish Parliament.",
+          "text_id": "309",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p265/p265_320_mic1.flac",
+          "text": "I'm very lucky.",
+          "text_id": "320",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p265/p265_313_mic1.flac",
+          "text": "Finally, he paid for the movie.",
+          "text_id": "313",
+          "role": "target"
+        }
+      ]
+    },
+    {
+      "speaker_id": "p276",
+      "gender": "F",
+      "age": "24",
+      "accent": "English",
+      "region": "Oxford",
+      "clips": [
+        {
+          "file": "inputs/voices/p276/p276_056_mic1.flac",
+          "text": "They have shown a great desire and attitude.",
+          "text_id": "056",
+          "role": "reference"
+        },
+        {
+          "file": "inputs/voices/p276/p276_068_mic1.flac",
+          "text": "Both banks are heavily involved in the Scottish market.",
+          "text_id": "068",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p276/p276_054_mic1.flac",
+          "text": "Surrender is not an appealing or realistic prospect.",
+          "text_id": "054",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p276/p276_095_mic1.flac",
+          "text": "He's not getting into any games.",
+          "text_id": "095",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p276/p276_052_mic1.flac",
+          "text": "You must always attempt to raise the bar.",
+          "text_id": "052",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p276/p276_092_mic1.flac",
+          "text": "Authorities have to recognise the risk of paedophiles.",
+          "text_id": "092",
+          "role": "target"
+        }
+      ]
+    },
+    {
+      "speaker_id": "p286",
+      "gender": "M",
+      "age": "23",
+      "accent": "English",
+      "region": "Newcastle",
+      "clips": [
+        {
+          "file": "inputs/voices/p286/p286_423_mic1.flac",
+          "text": "On the contrary, it was actually very funny.",
+          "text_id": "423",
+          "role": "reference"
+        },
+        {
+          "file": "inputs/voices/p286/p286_425_mic1.flac",
+          "text": "Being captain of this club is fantastic.",
+          "text_id": "425",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p286/p286_430_mic1.flac",
+          "text": "Nobody should believe this story.",
+          "text_id": "430",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p286/p286_400_mic1.flac",
+          "text": "A review is under way.",
+          "text_id": "400",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p286/p286_416_mic1.flac",
+          "text": "Three years ago he would have been.",
+          "text_id": "416",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p286/p286_421_mic1.flac",
+          "text": "This should put downward pressure on inflation.",
+          "text_id": "421",
+          "role": "target"
+        }
+      ]
+    },
+    {
+      "speaker_id": "p301",
+      "gender": "F",
+      "age": "23",
+      "accent": "American",
+      "region": "North Carolina",
+      "clips": [
+        {
+          "file": "inputs/voices/p301/p301_258_mic1.flac",
+          "text": "But they cannot go on ignoring the truth.",
+          "text_id": "258",
+          "role": "reference"
+        },
+        {
+          "file": "inputs/voices/p301/p301_267_mic1.flac",
+          "text": "I do not own the vessel in question.",
+          "text_id": "267",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p301/p301_268_mic1.flac",
+          "text": "Racism has no place in any sport.",
+          "text_id": "268",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p301/p301_240_mic1.flac",
+          "text": "The Tories election campaign has certainly been colourful.",
+          "text_id": "240",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p301/p301_263_mic1.flac",
+          "text": "We are trying to clarify the issues.",
+          "text_id": "263",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p301/p301_257_mic1.flac",
+          "text": "Pig farmers are completely despondent.",
+          "text_id": "257",
+          "role": "target"
+        }
+      ]
+    },
+    {
+      "speaker_id": "p313",
+      "gender": "F",
+      "age": "24",
+      "accent": "Irish",
+      "region": "County Down",
+      "clips": [
+        {
+          "file": "inputs/voices/p313/p313_301_mic1.flac",
+          "text": "They were going through the motions, but that's about all.",
+          "text_id": "301",
+          "role": "reference"
+        },
+        {
+          "file": "inputs/voices/p313/p313_297_mic1.flac",
+          "text": "What's the point of staying sober?",
+          "text_id": "297",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p313/p313_280_mic1.flac",
+          "text": "One thing is sure.",
+          "text_id": "280",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p313/p313_267_mic1.flac",
+          "text": "So, it took me back to boarding school.",
+          "text_id": "267",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p313/p313_299_mic1.flac",
+          "text": "The incident is being taken seriously.",
+          "text_id": "299",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p313/p313_264_mic1.flac",
+          "text": "We are playing them at their own game.",
+          "text_id": "264",
+          "role": "target"
+        }
+      ]
+    },
+    {
+      "speaker_id": "p335",
+      "gender": "F",
+      "age": "25",
+      "accent": "NewZealand",
+      "region": "English",
+      "clips": [
+        {
+          "file": "inputs/voices/p335/p335_059_mic1.flac",
+          "text": "I've learned a lot, and tomorrow is another day.",
+          "text_id": "059",
+          "role": "reference"
+        },
+        {
+          "file": "inputs/voices/p335/p335_097_mic1.flac",
+          "text": "You can expect a hell of a fuss.",
+          "text_id": "097",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p335/p335_076_mic1.flac",
+          "text": "He had a moustache.",
+          "text_id": "076",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p335/p335_096_mic1.flac",
+          "text": "I would think they are just behind them.",
+          "text_id": "096",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p335/p335_093_mic1.flac",
+          "text": "We wanted it left for a wee while.",
+          "text_id": "093",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p335/p335_091_mic1.flac",
+          "text": "The proposal was rejected.",
+          "text_id": "091",
+          "role": "target"
+        }
+      ]
+    },
+    {
+      "speaker_id": "p361",
+      "gender": "F",
+      "age": "19",
+      "accent": "American",
+      "region": "New Jersey",
+      "clips": [
+        {
+          "file": "inputs/voices/p361/p361_314_mic1.flac",
+          "text": "Many referees are on a hiding to nothing.",
+          "text_id": "314",
+          "role": "reference"
+        },
+        {
+          "file": "inputs/voices/p361/p361_347_mic1.flac",
+          "text": "This is still happening in the US.",
+          "text_id": "347",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p361/p361_339_mic1.flac",
+          "text": "They are a very good side, without a doubt.",
+          "text_id": "339",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p361/p361_329_mic1.flac",
+          "text": "Our own people are coming over on Friday.",
+          "text_id": "329",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p361/p361_323_mic1.flac",
+          "text": "Not that he was complaining.",
+          "text_id": "323",
+          "role": "target"
+        },
+        {
+          "file": "inputs/voices/p361/p361_354_mic1.flac",
+          "text": "It must not happen.",
+          "text_id": "354",
+          "role": "target"
+        }
+      ]
+    }
+  ]
+}

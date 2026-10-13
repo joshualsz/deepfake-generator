@@ -1,0 +1,65 @@
+{
+  "_doc": "Verified run_pairs.py settings per generator. Add an entry once a generator passes its smoke test + visual QA. Run all with scripts/run_all.py.",
+  "generators": [
+    {
+      "slug": "deep-live-cam",
+      "repo": "repos/Deep-Live-Cam",
+      "ext": ".png",
+      "timeout": 300,
+      "path_prepend": [".venv/Lib/site-packages/nvidia/*/bin"],
+      "settings": {"provider": "cuda", "frame_processor": "face_swapper", "model": "inswapper_128_fp16", "det_size": 320},
+      "cmd": "{python} run.py -s {source} -t {target} -o {output} --execution-provider cuda --frame-processor face_swapper --det-size 320"
+    },
+    {
+      "slug": "facefusion-{model}",
+      "repo": "repos/facefusion",
+      "ext": ".jpg",
+      "timeout": 900,
+      "path_prepend": [".venv/Lib/site-packages/nvidia/*/bin"],
+      "models": ["hyperswap_1a_256", "ghost_1_256", "simswap_256", "simswap_unofficial_512", "uniface_256", "hififace_unofficial_256", "blendswap_256", "alphaface_256"],
+      "settings": {"tool": "facefusion", "model": "{model}", "provider": "cuda", "enhancer": false, "output": "jpg q100"},
+      "cmd": "{python} facefusion.py headless-run --processors face_swapper --face-swapper-model {model} -s {source} -t {target} -o {output} --execution-providers cuda --output-image-quality 100"
+    },
+    {
+      "slug": "faceswap-dlib-3d",
+      "repo": "repos/FaceSwap",
+      "ext": ".jpg",
+      "timeout": 300,
+      "settings": {"tool": "wuhuikai/FaceSwap", "method": "dlib 68 landmarks + 3D warp", "correct_color": true},
+      "cmd": "{python} main.py --src {source} --dst {target} --out {output} --correct_color --no_debug_window"
+    },
+    {
+      "slug": "faceswap-dlib-2d",
+      "repo": "repos/FaceSwap",
+      "ext": ".jpg",
+      "timeout": 300,
+      "settings": {"tool": "wuhuikai/FaceSwap", "method": "dlib 68 landmarks + 2D warp", "correct_color": true},
+      "cmd": "{python} main.py --src {source} --dst {target} --out {output} --correct_color --no_debug_window --warp_2d"
+    },
+    {
+      "slug": "reswapper-128",
+      "repo": "repos/ReSwapper",
+      "ext": ".png",
+      "timeout": 600,
+      "settings": {"tool": "ReSwapper", "model": "reswapper-1019500.pth", "resolution": 128, "device": "cuda"},
+      "cmd": "{python} swap.py --source {source} --target {target} --outputPath {output} --modelPath models/reswapper-1019500.pth --resolution 128"
+    },
+    {
+      "slug": "inswapper-codeformer",
+      "repo": "repos/inswapper",
+      "ext": ".png",
+      "timeout": 900,
+      "path_prepend": [".venv/Lib/site-packages/nvidia/*/bin"],
+      "settings": {"tool": "haofanwang/inswapper", "model": "inswapper_128", "restoration": "CodeFormer", "codeformer_fidelity": 0.5, "face_upsample": true, "background_enhance": false, "upscale": 1},
+      "cmd": "{python} swapper.py --source_img {source} --target_img {target} --output_img {output} --face_restore --face_upsample --upscale 1 --codeformer_fidelity 0.5"
+    },
+    {
+      "slug": "ghost-unet2",
+      "repo": "repos/ghost",
+      "ext": ".png",
+      "timeout": 900,
+      "settings": {"tool": "ai-forever/ghost", "model": "G_unet_2blocks", "use_sr": false, "landmarks": "mxnet cpu", "det_size": 320, "device": "cuda"},
+      "cmd": "{python} _agent/swap_one.py {source} {target} {output}"
+    }
+  ]
+}

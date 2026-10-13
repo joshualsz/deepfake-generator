@@ -1,0 +1,36 @@
+{"generator": "faceswap-dlib-2d", "ok": 40, "failed": 0, "skipped": 10, "minutes": 2.9, "finished_at": "2026-10-07T04:19:55.988632+00:00"}
+{"generator": "deep-live-cam", "ok": 40, "failed": 0, "skipped": 10, "minutes": 6.7, "finished_at": "2026-10-07T04:26:40.210194+00:00"}
+{"generator": "facefusion-hyperswap_1a_256", "ok": 40, "failed": 0, "skipped": 10, "minutes": 7.9, "finished_at": "2026-10-07T04:34:32.801280+00:00"}
+{"generator": "facefusion-ghost_1_256", "ok": 40, "failed": 0, "skipped": 10, "minutes": 8.9, "finished_at": "2026-10-07T04:43:28.648121+00:00"}
+{"generator": "facefusion-simswap_256", "ok": 40, "failed": 0, "skipped": 10, "minutes": 6.7, "finished_at": "2026-10-07T04:50:13.422100+00:00"}
+{"generator": "facefusion-simswap_unofficial_512", "ok": 40, "failed": 0, "skipped": 10, "minutes": 6.9, "finished_at": "2026-10-07T04:57:07.101842+00:00"}
+{"generator": "facefusion-uniface_256", "ok": 40, "failed": 0, "skipped": 10, "minutes": 8.0, "finished_at": "2026-10-07T05:05:05.020040+00:00"}
+{"generator": "facefusion-hififace_unofficial_256", "ok": 40, "failed": 0, "skipped": 10, "minutes": 6.7, "finished_at": "2026-10-07T05:11:44.765709+00:00"}
+{"generator": "facefusion-blendswap_256", "ok": 40, "failed": 0, "skipped": 10, "minutes": 10.1, "finished_at": "2026-10-07T05:21:49.614727+00:00"}
+{"generator": "facefusion-alphaface_256", "ok": 40, "failed": 0, "skipped": 10, "minutes": 7.7, "finished_at": "2026-10-07T05:29:29.401901+00:00"}
+{"generator": "faceswap-dlib-3d", "ok": 40, "failed": 0, "skipped": 10, "minutes": 2.7, "finished_at": "2026-10-07T05:32:08.959056+00:00"}
+{"generator": "reswapper-128", "ok": 40, "failed": 0, "skipped": 10, "minutes": 19.8, "finished_at": "2026-10-07T05:51:57.607917+00:00"}
+{"generator": "inswapper-codeformer", "ok": 40, "failed": 0, "skipped": 10, "minutes": 15.8, "finished_at": "2026-10-07T06:07:47.477583+00:00"}
+{"generator": "ghost-unet2", "ok": 40, "failed": 0, "skipped": 10, "minutes": 7.2, "finished_at": "2026-10-07T06:14:57.725924+00:00"}
+{"minutes": 2.6, "finished_at": "2026-10-07T09:16:32.870924+00:00"}
+{"minutes": 0.0, "finished_at": "2026-10-07T09:16:33.143363+00:00"}
+{"minutes": 0.0, "finished_at": "2026-10-07T09:16:33.287782+00:00"}
+{"minutes": 0.0, "finished_at": "2026-10-07T09:16:33.359623+00:00"}
+{"minutes": 0.0, "finished_at": "2026-10-07T09:16:33.430562+00:00"}
+{"minutes": 0.0, "finished_at": "2026-10-07T09:16:33.501331+00:00"}
+{"minutes": 0.0, "finished_at": "2026-10-07T09:16:33.601738+00:00"}
+{"minutes": 0.0, "finished_at": "2026-10-07T09:16:33.671899+00:00"}
+{"generator": "deep-live-cam", "ok": 40, "failed": 0, "skipped": 10, "minutes": 5.5, "finished_at": "2026-10-08T04:55:07.450989+00:00"}
+{"generator": "facefusion-hyperswap_1a_256", "ok": 50, "failed": 0, "skipped": 0, "minutes": 8.8, "finished_at": "2026-10-08T05:03:54.118070+00:00"}
+{"generator": "facefusion-ghost_1_256", "ok": 50, "failed": 0, "skipped": 0, "minutes": 9.1, "finished_at": "2026-10-08T05:12:58.248234+00:00"}
+{"generator": "facefusion-simswap_256", "ok": 50, "failed": 0, "skipped": 0, "minutes": 8.7, "finished_at": "2026-10-08T05:21:39.556289+00:00"}
+{"generator": "facefusion-simswap_unofficial_512", "ok": 50, "failed": 0, "skipped": 0, "minutes": 8.3, "finished_at": "2026-10-08T05:29:59.705854+00:00"}
+{"generator": "facefusion-uniface_256", "ok": 50, "failed": 0, "skipped": 0, "minutes": 120.8, "finished_at": "2026-10-08T07:30:47.945721+00:00"}
+{"generator": "facefusion-hififace_unofficial_256", "ok": 50, "failed": 0, "skipped": 0, "minutes": 11.2, "finished_at": "2026-10-08T07:42:02.720001+00:00"}
+{"generator": "facefusion-blendswap_256", "ok": 50, "failed": 0, "skipped": 0, "minutes": 17.4, "finished_at": "2026-10-08T07:59:27.888850+00:00"}
+{"generator": "facefusion-alphaface_256", "ok": 50, "failed": 0, "skipped": 0, "minutes": 15.7, "finished_at": "2026-10-08T08:15:09.761946+00:00"}
+{"generator": "faceswap-dlib-3d", "ok": 46, "failed": 4, "skipped": 0, "minutes": 5.4, "finished_at": "2026-10-08T08:20:35.606675+00:00"}
+{"generator": "faceswap-dlib-2d", "ok": 46, "failed": 4, "skipped": 0, "minutes": 19.9, "finished_at": "2026-10-08T08:40:30.535131+00:00"}
+{"minutes": 160.5, "finished_at": "2026-10-08T11:20:59.564741+00:00"}
+{"minutes": 0.0, "finished_at": "2026-10-08T11:21:00.075905+00:00"}
+{"minutes": 0.0, "finished_at": "2026-10-08T11:21:00.490747+00:00"}

@@ -1,0 +1,355 @@
+{
+  "seed": 0,
+  "pairs": [
+    {
+      "pair_id": "q000",
+      "source": "inputs\\faces_p3\\sfhq3_0049.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0067.jpg",
+      "source_id": "sfhq3_0049",
+      "target_id": "sfhq3_0067"
+    },
+    {
+      "pair_id": "q001",
+      "source": "inputs\\faces_p3\\sfhq3_0097.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0057.jpg",
+      "source_id": "sfhq3_0097",
+      "target_id": "sfhq3_0057"
+    },
+    {
+      "pair_id": "q002",
+      "source": "inputs\\faces_p3\\sfhq3_0053.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0076.jpg",
+      "source_id": "sfhq3_0053",
+      "target_id": "sfhq3_0076"
+    },
+    {
+      "pair_id": "q003",
+      "source": "inputs\\faces_p3\\sfhq3_0005.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0031.jpg",
+      "source_id": "sfhq3_0005",
+      "target_id": "sfhq3_0031"
+    },
+    {
+      "pair_id": "q004",
+      "source": "inputs\\faces_p3\\sfhq3_0033.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0021.jpg",
+      "source_id": "sfhq3_0033",
+      "target_id": "sfhq3_0021"
+    },
+    {
+      "pair_id": "q005",
+      "source": "inputs\\faces_p3\\sfhq3_0065.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0015.jpg",
+      "source_id": "sfhq3_0065",
+      "target_id": "sfhq3_0015"
+    },
+    {
+      "pair_id": "q006",
+      "source": "inputs\\faces_p3\\sfhq3_0062.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0020.jpg",
+      "source_id": "sfhq3_0062",
+      "target_id": "sfhq3_0020"
+    },
+    {
+      "pair_id": "q007",
+      "source": "inputs\\faces_p3\\sfhq3_0051.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0004.jpg",
+      "source_id": "sfhq3_0051",
+      "target_id": "sfhq3_0004"
+    },
+    {
+      "pair_id": "q008",
+      "source": "inputs\\faces_p3\\sfhq3_0038.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0070.jpg",
+      "source_id": "sfhq3_0038",
+      "target_id": "sfhq3_0070"
+    },
+    {
+      "pair_id": "q009",
+      "source": "inputs\\faces_p3\\sfhq3_0061.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0084.jpg",
+      "source_id": "sfhq3_0061",
+      "target_id": "sfhq3_0084"
+    },
+    {
+      "pair_id": "q010",
+      "source": "inputs\\faces_p3\\sfhq3_0045.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0014.jpg",
+      "source_id": "sfhq3_0045",
+      "target_id": "sfhq3_0014"
+    },
+    {
+      "pair_id": "q011",
+      "source": "inputs\\faces_p3\\sfhq3_0074.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0044.jpg",
+      "source_id": "sfhq3_0074",
+      "target_id": "sfhq3_0044"
+    },
+    {
+      "pair_id": "q012",
+      "source": "inputs\\faces_p3\\sfhq3_0027.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0088.jpg",
+      "source_id": "sfhq3_0027",
+      "target_id": "sfhq3_0088"
+    },
+    {
+      "pair_id": "q013",
+      "source": "inputs\\faces_p3\\sfhq3_0064.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0034.jpg",
+      "source_id": "sfhq3_0064",
+      "target_id": "sfhq3_0034"
+    },
+    {
+      "pair_id": "q014",
+      "source": "inputs\\faces_p3\\sfhq3_0017.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0028.jpg",
+      "source_id": "sfhq3_0017",
+      "target_id": "sfhq3_0028"
+    },
+    {
+      "pair_id": "q015",
+      "source": "inputs\\faces_p3\\sfhq3_0036.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0086.jpg",
+      "source_id": "sfhq3_0036",
+      "target_id": "sfhq3_0086"
+    },
+    {
+      "pair_id": "q016",
+      "source": "inputs\\faces_p3\\sfhq3_0085.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0099.jpg",
+      "source_id": "sfhq3_0085",
+      "target_id": "sfhq3_0099"
+    },
+    {
+      "pair_id": "q017",
+      "source": "inputs\\faces_p3\\sfhq3_0012.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0043.jpg",
+      "source_id": "sfhq3_0012",
+      "target_id": "sfhq3_0043"
+    },
+    {
+      "pair_id": "q018",
+      "source": "inputs\\faces_p3\\sfhq3_0079.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0081.jpg",
+      "source_id": "sfhq3_0079",
+      "target_id": "sfhq3_0081"
+    },
+    {
+      "pair_id": "q019",
+      "source": "inputs\\faces_p3\\sfhq3_0032.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0093.jpg",
+      "source_id": "sfhq3_0032",
+      "target_id": "sfhq3_0093"
+    },
+    {
+      "pair_id": "q020",
+      "source": "inputs\\faces_p3\\sfhq3_0068.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0037.jpg",
+      "source_id": "sfhq3_0068",
+      "target_id": "sfhq3_0037"
+    },
+    {
+      "pair_id": "q021",
+      "source": "inputs\\faces_p3\\sfhq3_0077.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0083.jpg",
+      "source_id": "sfhq3_0077",
+      "target_id": "sfhq3_0083"
+    },
+    {
+      "pair_id": "q022",
+      "source": "inputs\\faces_p3\\sfhq3_0018.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0029.jpg",
+      "source_id": "sfhq3_0018",
+      "target_id": "sfhq3_0029"
+    },
+    {
+      "pair_id": "q023",
+      "source": "inputs\\faces_p3\\sfhq3_0039.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0022.jpg",
+      "source_id": "sfhq3_0039",
+      "target_id": "sfhq3_0022"
+    },
+    {
+      "pair_id": "q024",
+      "source": "inputs\\faces_p3\\sfhq3_0082.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0030.jpg",
+      "source_id": "sfhq3_0082",
+      "target_id": "sfhq3_0030"
+    },
+    {
+      "pair_id": "q025",
+      "source": "inputs\\faces_p3\\sfhq3_0009.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0059.jpg",
+      "source_id": "sfhq3_0009",
+      "target_id": "sfhq3_0059"
+    },
+    {
+      "pair_id": "q026",
+      "source": "inputs\\faces_p3\\sfhq3_0042.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0010.jpg",
+      "source_id": "sfhq3_0042",
+      "target_id": "sfhq3_0010"
+    },
+    {
+      "pair_id": "q027",
+      "source": "inputs\\faces_p3\\sfhq3_0060.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0024.jpg",
+      "source_id": "sfhq3_0060",
+      "target_id": "sfhq3_0024"
+    },
+    {
+      "pair_id": "q028",
+      "source": "inputs\\faces_p3\\sfhq3_0071.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0006.jpg",
+      "source_id": "sfhq3_0071",
+      "target_id": "sfhq3_0006"
+    },
+    {
+      "pair_id": "q029",
+      "source": "inputs\\faces_p3\\sfhq3_0075.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0019.jpg",
+      "source_id": "sfhq3_0075",
+      "target_id": "sfhq3_0019"
+    },
+    {
+      "pair_id": "q030",
+      "source": "inputs\\faces_p3\\sfhq3_0089.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0066.jpg",
+      "source_id": "sfhq3_0089",
+      "target_id": "sfhq3_0066"
+    },
+    {
+      "pair_id": "q031",
+      "source": "inputs\\faces_p3\\sfhq3_0055.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0078.jpg",
+      "source_id": "sfhq3_0055",
+      "target_id": "sfhq3_0078"
+    },
+    {
+      "pair_id": "q032",
+      "source": "inputs\\faces_p3\\sfhq3_0040.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0087.jpg",
+      "source_id": "sfhq3_0040",
+      "target_id": "sfhq3_0087"
+    },
+    {
+      "pair_id": "q033",
+      "source": "inputs\\faces_p3\\sfhq3_0026.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0047.jpg",
+      "source_id": "sfhq3_0026",
+      "target_id": "sfhq3_0047"
+    },
+    {
+      "pair_id": "q034",
+      "source": "inputs\\faces_p3\\sfhq3_0090.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0002.jpg",
+      "source_id": "sfhq3_0090",
+      "target_id": "sfhq3_0002"
+    },
+    {
+      "pair_id": "q035",
+      "source": "inputs\\faces_p3\\sfhq3_0056.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0080.jpg",
+      "source_id": "sfhq3_0056",
+      "target_id": "sfhq3_0080"
+    },
+    {
+      "pair_id": "q036",
+      "source": "inputs\\faces_p3\\sfhq3_0095.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0041.jpg",
+      "source_id": "sfhq3_0095",
+      "target_id": "sfhq3_0041"
+    },
+    {
+      "pair_id": "q037",
+      "source": "inputs\\faces_p3\\sfhq3_0003.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0052.jpg",
+      "source_id": "sfhq3_0003",
+      "target_id": "sfhq3_0052"
+    },
+    {
+      "pair_id": "q038",
+      "source": "inputs\\faces_p3\\sfhq3_0092.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0063.jpg",
+      "source_id": "sfhq3_0092",
+      "target_id": "sfhq3_0063"
+    },
+    {
+      "pair_id": "q039",
+      "source": "inputs\\faces_p3\\sfhq3_0058.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0016.jpg",
+      "source_id": "sfhq3_0058",
+      "target_id": "sfhq3_0016"
+    },
+    {
+      "pair_id": "q040",
+      "source": "inputs\\faces_p3\\sfhq3_0035.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0054.jpg",
+      "source_id": "sfhq3_0035",
+      "target_id": "sfhq3_0054"
+    },
+    {
+      "pair_id": "q041",
+      "source": "inputs\\faces_p3\\sfhq3_0072.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0094.jpg",
+      "source_id": "sfhq3_0072",
+      "target_id": "sfhq3_0094"
+    },
+    {
+      "pair_id": "q042",
+      "source": "inputs\\faces_p3\\sfhq3_0000.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0091.jpg",
+      "source_id": "sfhq3_0000",
+      "target_id": "sfhq3_0091"
+    },
+    {
+      "pair_id": "q043",
+      "source": "inputs\\faces_p3\\sfhq3_0096.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0001.jpg",
+      "source_id": "sfhq3_0096",
+      "target_id": "sfhq3_0001"
+    },
+    {
+      "pair_id": "q044",
+      "source": "inputs\\faces_p3\\sfhq3_0046.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0013.jpg",
+      "source_id": "sfhq3_0046",
+      "target_id": "sfhq3_0013"
+    },
+    {
+      "pair_id": "q045",
+      "source": "inputs\\faces_p3\\sfhq3_0098.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0048.jpg",
+      "source_id": "sfhq3_0098",
+      "target_id": "sfhq3_0048"
+    },
+    {
+      "pair_id": "q046",
+      "source": "inputs\\faces_p3\\sfhq3_0025.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0007.jpg",
+      "source_id": "sfhq3_0025",
+      "target_id": "sfhq3_0007"
+    },
+    {
+      "pair_id": "q047",
+      "source": "inputs\\faces_p3\\sfhq3_0069.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0011.jpg",
+      "source_id": "sfhq3_0069",
+      "target_id": "sfhq3_0011"
+    },
+    {
+      "pair_id": "q048",
+      "source": "inputs\\faces_p3\\sfhq3_0050.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0008.jpg",
+      "source_id": "sfhq3_0050",
+      "target_id": "sfhq3_0008"
+    },
+    {
+      "pair_id": "q049",
+      "source": "inputs\\faces_p3\\sfhq3_0073.jpg",
+      "target": "inputs\\faces_p3\\sfhq3_0023.jpg",
+      "source_id": "sfhq3_0073",
+      "target_id": "sfhq3_0023"
+    }
+  ]
+}

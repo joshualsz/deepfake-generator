@@ -1,0 +1,512 @@
+{
+  "source": "SFHQ (Synthetic Faces High Quality) \u2014 all faces are synthetic, no real identities",
+  "source_url": "https://github.com/SelfishGene/SFHQ-dataset",
+  "license": "MIT (per SFHQ repo)",
+  "mirror": "https://huggingface.co/datasets/bitmind/SyntheticFacesHQ/resolve/main/SFHQ-part1.zip",
+  "part": 1,
+  "seed": 0,
+  "note": "faces are appended on extension; draw seed for each batch = '<seed>-<faces before batch>'",
+  "fetched_at": "2026-10-07T04:16:31.875215+00:00",
+  "images": [
+    {
+      "id": "sfhq1_0000",
+      "file": "sfhq1_0000.jpg",
+      "zip_member": "AI/SFHQ_pt1_00027671.jpg"
+    },
+    {
+      "id": "sfhq1_0001",
+      "file": "sfhq1_0001.jpg",
+      "zip_member": "AI/SFHQ_pt1_00012624.jpg"
+    },
+    {
+      "id": "sfhq1_0002",
+      "file": "sfhq1_0002.jpg",
+      "zip_member": "AI/SFHQ_pt1_00024837.jpg"
+    },
+    {
+      "id": "sfhq1_0003",
+      "file": "sfhq1_0003.jpg",
+      "zip_member": "AI/SFHQ_pt1_00029172.jpg"
+    },
+    {
+      "id": "sfhq1_0004",
+      "file": "sfhq1_0004.jpg",
+      "zip_member": "AI/SFHQ_pt1_00013782.jpg"
+    },
+    {
+      "id": "sfhq1_0005",
+      "file": "sfhq1_0005.jpg",
+      "zip_member": "AI/SFHQ_pt1_00001327.jpg"
+    },
+    {
+      "id": "sfhq1_0006",
+      "file": "sfhq1_0006.jpg",
+      "zip_member": "AI/SFHQ_pt1_00008485.jpg"
+    },
+    {
+      "id": "sfhq1_0007",
+      "file": "sfhq1_0007.jpg",
+      "zip_member": "AI/SFHQ_pt1_00031637.jpg"
+    },
+    {
+      "id": "sfhq1_0008",
+      "file": "sfhq1_0008.jpg",
+      "zip_member": "AI/SFHQ_pt1_00016754.jpg"
+    },
+    {
+      "id": "sfhq1_0009",
+      "file": "sfhq1_0009.jpg",
+      "zip_member": "AI/SFHQ_pt1_00015923.jpg"
+    },
+    {
+      "id": "sfhq1_0010",
+      "file": "sfhq1_0010.jpg",
+      "zip_member": "AI/SFHQ_pt1_00013269.jpg"
+    },
+    {
+      "id": "sfhq1_0011",
+      "file": "sfhq1_0011.jpg",
+      "zip_member": "AI/SFHQ_pt1_00030089.jpg"
+    },
+    {
+      "id": "sfhq1_0012",
+      "file": "sfhq1_0012.jpg",
+      "zip_member": "AI/SFHQ_pt1_00025684.jpg"
+    },
+    {
+      "id": "sfhq1_0013",
+      "file": "sfhq1_0013.jpg",
+      "zip_member": "AI/SFHQ_pt1_00027193.jpg"
+    },
+    {
+      "id": "sfhq1_0014",
+      "file": "sfhq1_0014.jpg",
+      "zip_member": "AI/SFHQ_pt1_00009939.jpg"
+    },
+    {
+      "id": "sfhq1_0015",
+      "file": "sfhq1_0015.jpg",
+      "zip_member": "AI/SFHQ_pt1_00031713.jpg"
+    },
+    {
+      "id": "sfhq1_0016",
+      "file": "sfhq1_0016.jpg",
+      "zip_member": "AI/SFHQ_pt1_00015618.jpg"
+    },
+    {
+      "id": "sfhq1_0017",
+      "file": "sfhq1_0017.jpg",
+      "zip_member": "AI/SFHQ_pt1_00011733.jpg"
+    },
+    {
+      "id": "sfhq1_0018",
+      "file": "sfhq1_0018.jpg",
+      "zip_member": "AI/SFHQ_pt1_00019117.jpg"
+    },
+    {
+      "id": "sfhq1_0019",
+      "file": "sfhq1_0019.jpg",
+      "zip_member": "AI/SFHQ_pt1_00029218.jpg"
+    },
+    {
+      "id": "sfhq1_0020",
+      "file": "sfhq1_0020.jpg",
+      "zip_member": "AI/SFHQ_pt1_00010509.jpg"
+    },
+    {
+      "id": "sfhq1_0021",
+      "file": "sfhq1_0021.jpg",
+      "zip_member": "AI/SFHQ_pt1_00005665.jpg"
+    },
+    {
+      "id": "sfhq1_0022",
+      "file": "sfhq1_0022.jpg",
+      "zip_member": "AI/SFHQ_pt1_00015397.jpg"
+    },
+    {
+      "id": "sfhq1_0023",
+      "file": "sfhq1_0023.jpg",
+      "zip_member": "AI/SFHQ_pt1_00006042.jpg"
+    },
+    {
+      "id": "sfhq1_0024",
+      "file": "sfhq1_0024.jpg",
+      "zip_member": "AI/SFHQ_pt1_00019670.jpg"
+    },
+    {
+      "id": "sfhq1_0025",
+      "file": "sfhq1_0025.jpg",
+      "zip_member": "AI/SFHQ_pt1_00017145.jpg"
+    },
+    {
+      "id": "sfhq1_0026",
+      "file": "sfhq1_0026.jpg",
+      "zip_member": "AI/SFHQ_pt1_00025161.jpg"
+    },
+    {
+      "id": "sfhq1_0027",
+      "file": "sfhq1_0027.jpg",
+      "zip_member": "AI/SFHQ_pt1_00008434.jpg"
+    },
+    {
+      "id": "sfhq1_0028",
+      "file": "sfhq1_0028.jpg",
+      "zip_member": "AI/SFHQ_pt1_00013989.jpg"
+    },
+    {
+      "id": "sfhq1_0029",
+      "file": "sfhq1_0029.jpg",
+      "zip_member": "AI/SFHQ_pt1_00000428.jpg"
+    },
+    {
+      "id": "sfhq1_0030",
+      "file": "sfhq1_0030.jpg",
+      "zip_member": "AI/SFHQ_pt1_00012313.jpg"
+    },
+    {
+      "id": "sfhq1_0031",
+      "file": "sfhq1_0031.jpg",
+      "zip_member": "AI/SFHQ_pt1_00016748.jpg"
+    },
+    {
+      "id": "sfhq1_0032",
+      "file": "sfhq1_0032.jpg",
+      "zip_member": "AI/SFHQ_pt1_00023292.jpg"
+    },
+    {
+      "id": "sfhq1_0033",
+      "file": "sfhq1_0033.jpg",
+      "zip_member": "AI/SFHQ_pt1_00003928.jpg"
+    },
+    {
+      "id": "sfhq1_0034",
+      "file": "sfhq1_0034.jpg",
+      "zip_member": "AI/SFHQ_pt1_00011608.jpg"
+    },
+    {
+      "id": "sfhq1_0035",
+      "file": "sfhq1_0035.jpg",
+      "zip_member": "AI/SFHQ_pt1_00010190.jpg"
+    },
+    {
+      "id": "sfhq1_0036",
+      "file": "sfhq1_0036.jpg",
+      "zip_member": "AI/SFHQ_pt1_00022804.jpg"
+    },
+    {
+      "id": "sfhq1_0037",
+      "file": "sfhq1_0037.jpg",
+      "zip_member": "AI/SFHQ_pt1_00017491.jpg"
+    },
+    {
+      "id": "sfhq1_0038",
+      "file": "sfhq1_0038.jpg",
+      "zip_member": "AI/SFHQ_pt1_00023279.jpg"
+    },
+    {
+      "id": "sfhq1_0039",
+      "file": "sfhq1_0039.jpg",
+      "zip_member": "AI/SFHQ_pt1_00000572.jpg"
+    },
+    {
+      "id": "sfhq1_0040",
+      "file": "sfhq1_0040.jpg",
+      "zip_member": "AI/SFHQ_pt1_00015162.jpg"
+    },
+    {
+      "id": "sfhq1_0041",
+      "file": "sfhq1_0041.jpg",
+      "zip_member": "AI/SFHQ_pt1_00027723.jpg"
+    },
+    {
+      "id": "sfhq1_0042",
+      "file": "sfhq1_0042.jpg",
+      "zip_member": "AI/SFHQ_pt1_00000356.jpg"
+    },
+    {
+      "id": "sfhq1_0043",
+      "file": "sfhq1_0043.jpg",
+      "zip_member": "AI/SFHQ_pt1_00025146.jpg"
+    },
+    {
+      "id": "sfhq1_0044",
+      "file": "sfhq1_0044.jpg",
+      "zip_member": "AI/SFHQ_pt1_00013961.jpg"
+    },
+    {
+      "id": "sfhq1_0045",
+      "file": "sfhq1_0045.jpg",
+      "zip_member": "AI/SFHQ_pt1_00004597.jpg"
+    },
+    {
+      "id": "sfhq1_0046",
+      "file": "sfhq1_0046.jpg",
+      "zip_member": "AI/SFHQ_pt1_00022653.jpg"
+    },
+    {
+      "id": "sfhq1_0047",
+      "file": "sfhq1_0047.jpg",
+      "zip_member": "AI/SFHQ_pt1_00028710.jpg"
+    },
+    {
+      "id": "sfhq1_0048",
+      "file": "sfhq1_0048.jpg",
+      "zip_member": "AI/SFHQ_pt1_00032137.jpg"
+    },
+    {
+      "id": "sfhq1_0049",
+      "file": "sfhq1_0049.jpg",
+      "zip_member": "AI/SFHQ_pt1_00007917.jpg"
+    },
+    {
+      "id": "sfhq1_0050",
+      "file": "sfhq1_0050.jpg",
+      "zip_member": "AI/SFHQ_pt1_00001185.jpg"
+    },
+    {
+      "id": "sfhq1_0051",
+      "file": "sfhq1_0051.jpg",
+      "zip_member": "AI/SFHQ_pt1_00021683.jpg"
+    },
+    {
+      "id": "sfhq1_0052",
+      "file": "sfhq1_0052.jpg",
+      "zip_member": "AI/SFHQ_pt1_00014231.jpg"
+    },
+    {
+      "id": "sfhq1_0053",
+      "file": "sfhq1_0053.jpg",
+      "zip_member": "AI/SFHQ_pt1_00005743.jpg"
+    },
+    {
+      "id": "sfhq1_0054",
+      "file": "sfhq1_0054.jpg",
+      "zip_member": "AI/SFHQ_pt1_00015070.jpg"
+    },
+    {
+      "id": "sfhq1_0055",
+      "file": "sfhq1_0055.jpg",
+      "zip_member": "AI/SFHQ_pt1_00005609.jpg"
+    },
+    {
+      "id": "sfhq1_0056",
+      "file": "sfhq1_0056.jpg",
+      "zip_member": "AI/SFHQ_pt1_00020609.jpg"
+    },
+    {
+      "id": "sfhq1_0057",
+      "file": "sfhq1_0057.jpg",
+      "zip_member": "AI/SFHQ_pt1_00020347.jpg"
+    },
+    {
+      "id": "sfhq1_0058",
+      "file": "sfhq1_0058.jpg",
+      "zip_member": "AI/SFHQ_pt1_00008658.jpg"
+    },
+    {
+      "id": "sfhq1_0059",
+      "file": "sfhq1_0059.jpg",
+      "zip_member": "AI/SFHQ_pt1_00017885.jpg"
+    },
+    {
+      "id": "sfhq1_0060",
+      "file": "sfhq1_0060.jpg",
+      "zip_member": "AI/SFHQ_pt1_00004391.jpg"
+    },
+    {
+      "id": "sfhq1_0061",
+      "file": "sfhq1_0061.jpg",
+      "zip_member": "AI/SFHQ_pt1_00018428.jpg"
+    },
+    {
+      "id": "sfhq1_0062",
+      "file": "sfhq1_0062.jpg",
+      "zip_member": "AI/SFHQ_pt1_00028692.jpg"
+    },
+    {
+      "id": "sfhq1_0063",
+      "file": "sfhq1_0063.jpg",
+      "zip_member": "AI/SFHQ_pt1_00026404.jpg"
+    },
+    {
+      "id": "sfhq1_0064",
+      "file": "sfhq1_0064.jpg",
+      "zip_member": "AI/SFHQ_pt1_00018720.jpg"
+    },
+    {
+      "id": "sfhq1_0065",
+      "file": "sfhq1_0065.jpg",
+      "zip_member": "AI/SFHQ_pt1_00023512.jpg"
+    },
+    {
+      "id": "sfhq1_0066",
+      "file": "sfhq1_0066.jpg",
+      "zip_member": "AI/SFHQ_pt1_00016696.jpg"
+    },
+    {
+      "id": "sfhq1_0067",
+      "file": "sfhq1_0067.jpg",
+      "zip_member": "AI/SFHQ_pt1_00022305.jpg"
+    },
+    {
+      "id": "sfhq1_0068",
+      "file": "sfhq1_0068.jpg",
+      "zip_member": "AI/SFHQ_pt1_00013827.jpg"
+    },
+    {
+      "id": "sfhq1_0069",
+      "file": "sfhq1_0069.jpg",
+      "zip_member": "AI/SFHQ_pt1_00001291.jpg"
+    },
+    {
+      "id": "sfhq1_0070",
+      "file": "sfhq1_0070.jpg",
+      "zip_member": "AI/SFHQ_pt1_00032371.jpg"
+    },
+    {
+      "id": "sfhq1_0071",
+      "file": "sfhq1_0071.jpg",
+      "zip_member": "AI/SFHQ_pt1_00012982.jpg"
+    },
+    {
+      "id": "sfhq1_0072",
+      "file": "sfhq1_0072.jpg",
+      "zip_member": "AI/SFHQ_pt1_00011274.jpg"
+    },
+    {
+      "id": "sfhq1_0073",
+      "file": "sfhq1_0073.jpg",
+      "zip_member": "AI/SFHQ_pt1_00016235.jpg"
+    },
+    {
+      "id": "sfhq1_0074",
+      "file": "sfhq1_0074.jpg",
+      "zip_member": "AI/SFHQ_pt1_00014226.jpg"
+    },
+    {
+      "id": "sfhq1_0075",
+      "file": "sfhq1_0075.jpg",
+      "zip_member": "AI/SFHQ_pt1_00018322.jpg"
+    },
+    {
+      "id": "sfhq1_0076",
+      "file": "sfhq1_0076.jpg",
+      "zip_member": "AI/SFHQ_pt1_00010848.jpg"
+    },
+    {
+      "id": "sfhq1_0077",
+      "file": "sfhq1_0077.jpg",
+      "zip_member": "AI/SFHQ_pt1_00024023.jpg"
+    },
+    {
+      "id": "sfhq1_0078",
+      "file": "sfhq1_0078.jpg",
+      "zip_member": "AI/SFHQ_pt1_00022799.jpg"
+    },
+    {
+      "id": "sfhq1_0079",
+      "file": "sfhq1_0079.jpg",
+      "zip_member": "AI/SFHQ_pt1_00032005.jpg"
+    },
+    {
+      "id": "sfhq1_0080",
+      "file": "sfhq1_0080.jpg",
+      "zip_member": "AI/SFHQ_pt1_00024892.jpg"
+    },
+    {
+      "id": "sfhq1_0081",
+      "file": "sfhq1_0081.jpg",
+      "zip_member": "AI/SFHQ_pt1_00026702.jpg"
+    },
+    {
+      "id": "sfhq1_0082",
+      "file": "sfhq1_0082.jpg",
+      "zip_member": "AI/SFHQ_pt1_00008205.jpg"
+    },
+    {
+      "id": "sfhq1_0083",
+      "file": "sfhq1_0083.jpg",
+      "zip_member": "AI/SFHQ_pt1_00028112.jpg"
+    },
+    {
+      "id": "sfhq1_0084",
+      "file": "sfhq1_0084.jpg",
+      "zip_member": "AI/SFHQ_pt1_00010375.jpg"
+    },
+    {
+      "id": "sfhq1_0085",
+      "file": "sfhq1_0085.jpg",
+      "zip_member": "AI/SFHQ_pt1_00025435.jpg"
+    },
+    {
+      "id": "sfhq1_0086",
+      "file": "sfhq1_0086.jpg",
+      "zip_member": "AI/SFHQ_pt1_00007817.jpg"
+    },
+    {
+      "id": "sfhq1_0087",
+      "file": "sfhq1_0087.jpg",
+      "zip_member": "AI/SFHQ_pt1_00012481.jpg"
+    },
+    {
+      "id": "sfhq1_0088",
+      "file": "sfhq1_0088.jpg",
+      "zip_member": "AI/SFHQ_pt1_00025859.jpg"
+    },
+    {
+      "id": "sfhq1_0089",
+      "file": "sfhq1_0089.jpg",
+      "zip_member": "AI/SFHQ_pt1_00028599.jpg"
+    },
+    {
+      "id": "sfhq1_0090",
+      "file": "sfhq1_0090.jpg",
+      "zip_member": "AI/SFHQ_pt1_00008248.jpg"
+    },
+    {
+      "id": "sfhq1_0091",
+      "file": "sfhq1_0091.jpg",
+      "zip_member": "AI/SFHQ_pt1_00006353.jpg"
+    },
+    {
+      "id": "sfhq1_0092",
+      "file": "sfhq1_0092.jpg",
+      "zip_member": "AI/SFHQ_pt1_00016039.jpg"
+    },
+    {
+      "id": "sfhq1_0093",
+      "file": "sfhq1_0093.jpg",
+      "zip_member": "AI/SFHQ_pt1_00015797.jpg"
+    },
+    {
+      "id": "sfhq1_0094",
+      "file": "sfhq1_0094.jpg",
+      "zip_member": "AI/SFHQ_pt1_00003264.jpg"
+    },
+    {
+      "id": "sfhq1_0095",
+      "file": "sfhq1_0095.jpg",
+      "zip_member": "AI/SFHQ_pt1_00021891.jpg"
+    },
+    {
+      "id": "sfhq1_0096",
+      "file": "sfhq1_0096.jpg",
+      "zip_member": "AI/SFHQ_pt1_00018630.jpg"
+    },
+    {
+      "id": "sfhq1_0097",
+      "file": "sfhq1_0097.jpg",
+      "zip_member": "AI/SFHQ_pt1_00002219.jpg"
+    },
+    {
+      "id": "sfhq1_0098",
+      "file": "sfhq1_0098.jpg",
+      "zip_member": "AI/SFHQ_pt1_00026213.jpg"
+    },
+    {
+      "id": "sfhq1_0099",
+      "file": "sfhq1_0099.jpg",
+      "zip_member": "AI/SFHQ_pt1_00010839.jpg"
+    }
+  ]
+}
