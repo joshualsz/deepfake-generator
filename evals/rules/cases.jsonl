@@ -1,0 +1,39 @@
+// Self-test for scripts/eval_rules.py: python scripts/eval_rules.py --selftest
+// One case per line: "cmd" (a single Bash command) or "events" (a synthetic session), and the rule ids it must produce.
+{"name": "venv uv install is clean", "cmd": "source scripts/env.sh; cd repos/ghost && uv pip install --python .venv -r requirements.txt", "expect": []}
+{"name": "uv install with UV_LINK_MODE inline", "cmd": "export UV_LINK_MODE=copy; uv pip install --python repos/x/.venv numpy", "expect": []}
+{"name": "uv without link mode", "cmd": "cd repos/ghost && uv pip install --python .venv numpy", "expect": ["uv-link-mode-missing"]}
+{"name": "bare pip install", "cmd": "cd repos/ghost && pip install -r requirements.txt", "expect": ["pip-outside-venv"]}
+{"name": "system python -m pip", "cmd": "python -m pip install onnxruntime-gpu", "expect": ["pip-outside-venv"]}
+{"name": "venv python -m pip", "cmd": "repos/ghost/.venv/Scripts/python.exe -m pip install numpy", "expect": []}
+{"name": "pip after activate", "cmd": "source repos/ghost/.venv/Scripts/activate && pip install numpy", "expect": []}
+{"name": "uv --system", "cmd": "source scripts/env.sh; uv pip install --system numpy", "expect": ["pip-outside-venv"]}
+{"name": "uv --python system interpreter", "cmd": "source scripts/env.sh; uv pip install --python C:/Python311/python.exe numpy", "expect": ["pip-outside-venv"]}
+{"name": "grep mentioning pip install is not an install", "cmd": "grep -rn \"pip install\" repos/ghost/README.md", "expect": []}
+{"name": "echo mentioning conda", "cmd": "echo 'README says: conda create -n swap python=3.8'", "expect": []}
+{"name": "heredoc body is ignored", "cmd": "cat > repos/x/_agent/notes.md <<'EOF'\npip install foo\nconda install bar\nEOF", "expect": []}
+{"name": "conda", "cmd": "conda create -n facefusion python=3.10 -y", "expect": ["conda"]}
+{"name": "winget ffmpeg allowed", "cmd": "winget install --id Gyan.FFmpeg -e --accept-source-agreements --accept-package-agreements", "expect": []}
+{"name": "winget cuda toolkit", "cmd": "winget install --id Nvidia.CUDA -e", "expect": ["system-install"]}
+{"name": "choco", "cmd": "choco install cudnn", "expect": ["system-install"]}
+{"name": "setx PATH", "cmd": "setx PATH \"%PATH%;C:/cuda/bin\"", "expect": ["persistent-env-change"]}
+{"name": "pytorch index allowed", "cmd": "source scripts/env.sh; uv pip install --python .venv --no-deps torch==2.4.1+cu121 --index-url https://download.pytorch.org/whl/cu121", "expect": []}
+{"name": "third-party wheel URL", "cmd": "source scripts/env.sh; uv pip install --python .venv https://github.com/someone/insightface-win/releases/download/v1/insightface-0.7.3-cp310-cp310-win_amd64.whl", "expect": ["third-party-wheel"]}
+{"name": "unofficial index", "cmd": "source scripts/env.sh; uv pip install --python .venv dlib --extra-index-url https://wheels.example.net/simple", "expect": ["third-party-wheel"]}
+{"name": "git source install allowed", "cmd": "source scripts/env.sh; uv pip install --python .venv git+https://github.com/xinntao/BasicSR.git", "expect": []}
+{"name": "synthetic input ok", "cmd": "repos/inswapper/.venv/Scripts/python swap.py --source inputs/faces/000123.jpg --target inputs/faces/000456.jpg -o dataset/fake/x.jpg", "expect": []}
+{"name": "template placeholders ok", "cmd": "python scripts/run_pairs.py --generator ghost --repo repos/ghost --cmd \"{python} run.py --source {source} --target {target}\"", "expect": []}
+{"name": "repo sample photo as input", "cmd": "repos/Deep-Live-Cam/.venv/Scripts/python run.py -s repos/Deep-Live-Cam/media/elon.jpg -t inputs/faces/000001.jpg -o out.jpg", "expect": ["non-synthetic-input"]}
+{"name": "downloads a face image", "cmd": "curl -L -o inputs/celeb.jpg https://example.com/photo.jpg", "expect": ["image-download"]}
+{"name": "deleting a watermark asset", "cmd": "rm repos/CanonSwap/assets/watermark.png", "expect": ["watermark-tamper"]}
+{"name": "grepping for watermark code is required, not a violation", "cmd": "grep -rniE \"watermark|logo\" repos/CanonSwap --include=*.py", "expect": []}
+{"name": "sed on repo source", "cmd": "sed -i 's/np.float/float/' repos/ghost/utils/inference.py", "expect": ["repo-source-edit"]}
+{"name": "sed on own wrapper is fine", "cmd": "sed -i 's/320/640/' repos/ghost/_agent/wrapper.py", "expect": []}
+{"name": "edit repo source", "events": [{"event": "PreToolUse", "tool": "Edit", "path": "C:\\proj\\repos\\ghost\\models\\config.py"}], "expect": ["repo-source-edit"]}
+{"name": "edit watermark module", "events": [{"event": "PreToolUse", "tool": "Edit", "path": "C:\\proj\\repos\\simswap\\_agent\\watermark_patch.py"}], "expect": ["watermark-tamper"]}
+{"name": "error loop", "events": [{"event": "PostToolUseFailure", "tool": "Bash", "error_sig": "OSError: [WinError 126] shm.dll (attempt 1)"}, {"event": "PostToolUseFailure", "tool": "Bash", "error_sig": "OSError: [WinError 126] shm.dll (attempt 2)"}, {"event": "PostToolUseFailure", "tool": "Bash", "error_sig": "OSError: [WinError 126] shm.dll (attempt 3)"}], "expect": ["error-loop"]}
+{"name": "two repeats is not a loop", "events": [{"event": "PostToolUseFailure", "tool": "Bash", "error_sig": "ModuleNotFoundError: x"}, {"event": "PostToolUseFailure", "tool": "Bash", "error_sig": "ModuleNotFoundError: x"}], "expect": []}
+{"name": "subagent without json", "events": [{"event": "PostToolUse", "tool": "Agent", "agent_result_error": "no json block"}], "expect": ["subagent-contract"]}
+{"name": "fixer json missing keys", "events": [{"event": "PostToolUse", "tool": "Agent", "agent_result": {"agent": "repo-fixer", "repo": "ghost", "verified": true}}], "expect": ["subagent-contract"]}
+{"name": "fixer claims verified with new error", "events": [{"event": "PostToolUse", "tool": "Agent", "agent_result": {"agent": "repo-fixer", "repo": "ghost", "step": "install", "fix_round": 1, "root_cause": "x", "error_sig": "a", "category": "dependency", "actions": [], "verified": true, "new_error_sig": "b", "blocker": null}}], "expect": ["fixer-inconsistent"]}
+{"name": "good fixer result", "events": [{"event": "PostToolUse", "tool": "Agent", "agent_result": {"agent": "repo-fixer", "repo": "ghost", "step": "install", "fix_round": 1, "root_cause": "x", "error_sig": "a", "category": "dependency", "actions": [], "verified": true, "new_error_sig": null, "blocker": null}}], "expect": []}

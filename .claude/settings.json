@@ -1,4 +1,9 @@
 {
+  "attribution": {
+    "commit": "",
+    "pr": "",
+    "sessionUrl": false
+  },
   "hooks": {
     "SessionStart": [
       {
@@ -126,6 +131,15 @@
             "type": "command",
             "command": "python \"$CLAUDE_PROJECT_DIR/scripts/eod_capture_hook.py\"",
             "timeout": 10
+          }
+        ]
+      },
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python \"$CLAUDE_PROJECT_DIR/scripts/eval_rules.py\" --hook",
+            "timeout": 15
           }
         ]
       }

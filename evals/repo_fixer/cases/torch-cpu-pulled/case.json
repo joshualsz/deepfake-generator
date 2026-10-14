@@ -1,0 +1,20 @@
+{
+  "id": "torch-cpu-pulled",
+  "title": "Requirements pulled the CPU-only torch from PyPI",
+  "source": "repos/ReSwapper/_agent/report.md (torch+cpu pulled in by dependencies)",
+  "tags": ["heavy"],
+  "step": "launch",
+  "expect": "fixed",
+  "setup": [
+    "uv venv --python 3.10 .venv",
+    "uv pip install --python .venv timm==1.0.9 torch==2.4.1 torchvision==0.19.1 \"numpy<2\""
+  ],
+  "failing_cmd": ".venv/Scripts/python app.py",
+  "failing_match": "not compiled with CUDA",
+  "check": [".venv/Scripts/python app.py"],
+  "protected": ["app.py"],
+  "reference_fix": [
+    "uv pip install --python .venv --no-deps --reinstall-package torch --reinstall-package torchvision torch==2.4.1+cu121 torchvision==0.19.1+cu121 --index-url https://download.pytorch.org/whl/cu121"
+  ],
+  "tried": "uv pip install -r requirements.txt (timm, torch 2.4.1, torchvision 0.19.1)"
+}
