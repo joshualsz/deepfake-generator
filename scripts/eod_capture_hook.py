@@ -32,8 +32,6 @@ def patch_to_text(patch):
 
 
 def main():
-    if os.environ.get("DEEPFAKE_EVAL_RUN"):
-        return  # eval trials edit throwaway workspaces; nothing to report
     try:
         data = json.load(sys.stdin)
     except Exception:

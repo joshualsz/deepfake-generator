@@ -250,8 +250,6 @@ def selftest():
 
 def hook():
     """Stop hook: block once when this session has violations not reported before."""
-    if os.environ.get("DEEPFAKE_EVAL_RUN"):
-        return  # eval harness grades the trace itself; don't coach the agent mid-trial
     data = json.loads(sys.stdin.buffer.read().decode("utf-8", errors="replace") or "{}")
     if data.get("stop_hook_active") or not EVENTS.exists():
         return
