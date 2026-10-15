@@ -1,0 +1,7086 @@
+{
+ "seed": 0,
+ "heldout_generators": [
+  "facefusion-uniface_256",
+  "faceswap-dlib-3d"
+ ],
+ "notes": "split by pair_id; reals are the pair targets; face ids may repeat across pairs",
+ "train": {
+  "fake": [
+   {
+    "file": "dataset/fake/deep-live-cam/p000.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p000"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p001.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p001"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p002.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p002"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p003.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p003"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p004.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p004"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p006.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p006"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p007.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p007"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p008.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p008"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p000.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p000"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p001.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p001"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p002.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p002"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p003.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p003"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p004.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p004"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p006.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p006"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p007.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p007"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p008.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p008"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p000.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p000"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p001.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p001"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p002.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p002"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p003.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p003"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p004.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p004"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p006.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p006"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p007.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p007"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p008.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p008"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p000.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p000"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p001.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p001"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p002.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p002"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p003.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p003"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p004.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p004"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p006.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p006"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p007.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p007"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p008.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p008"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p000.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p000"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p001.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p001"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p002.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p002"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p003.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p003"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p004.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p004"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p006.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p006"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p007.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p007"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p008.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p008"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p000.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p000"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p001.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p001"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p002.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p002"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p003.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p003"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p004.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p004"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p006.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p006"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p007.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p007"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p008.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p008"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p000.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p000"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p001.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p001"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p002.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p002"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p003.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p003"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p004.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p004"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p006.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p006"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p007.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p007"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p008.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p008"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p000.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p000"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p001.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p001"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p002.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p002"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p003.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p003"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p004.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p004"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p006.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p006"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p000.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p000"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p007.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p007"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p008.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p008"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p001.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p001"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p000.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p000"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p001.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p001"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p002.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p002"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p003.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p003"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p002.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p002"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p004.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p004"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p006.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p006"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p003.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p003"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p007.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p007"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p008.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p008"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p004.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p004"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p006.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p006"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p007.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p007"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p008.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p008"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p000.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p000"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p001.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p001"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p002.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p002"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p003.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p003"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p004.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p004"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p006.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p006"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p007.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p007"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p008.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p008"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p000.png",
+    "generator": "reswapper-128",
+    "pair_id": "p000"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p001.png",
+    "generator": "reswapper-128",
+    "pair_id": "p001"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p002.png",
+    "generator": "reswapper-128",
+    "pair_id": "p002"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p003.png",
+    "generator": "reswapper-128",
+    "pair_id": "p003"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p004.png",
+    "generator": "reswapper-128",
+    "pair_id": "p004"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p006.png",
+    "generator": "reswapper-128",
+    "pair_id": "p006"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p007.png",
+    "generator": "reswapper-128",
+    "pair_id": "p007"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p008.png",
+    "generator": "reswapper-128",
+    "pair_id": "p008"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p000.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p000"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p001.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p001"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p002.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p002"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p003.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p003"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p004.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p004"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p006.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p006"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p007.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p007"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p008.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p008"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p000.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p000"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p001.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p001"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p002.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p002"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p003.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p003"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p004.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p004"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p006.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p006"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p007.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p007"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p008.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p008"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p010.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p010"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p011.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p011"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p013.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p013"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p014.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p014"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p015.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p015"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p016.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p016"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p019.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p019"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p020.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p020"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p021.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p021"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p022.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p022"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p023.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p023"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p024.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p024"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p025.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p025"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p026.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p026"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p028.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p028"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p029.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p029"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p030.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p030"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p031.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p031"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p034.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p034"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p035.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p035"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p037.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p037"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p040.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p040"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p041.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p041"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p043.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p043"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p044.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p044"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p046.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p046"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p047.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p047"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p048.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p048"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p010.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p010"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p011.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p011"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p013.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p013"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p014.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p014"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p015.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p015"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p016.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p016"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p019.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p019"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p020.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p020"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p021.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p021"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p022.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p022"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p023.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p023"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p024.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p024"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p025.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p025"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p026.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p026"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p028.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p028"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p029.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p029"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p030.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p030"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p031.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p031"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p034.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p034"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p035.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p035"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p037.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p037"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p040.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p040"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p041.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p041"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p043.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p043"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p044.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p044"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p046.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p046"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p047.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p047"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p048.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p048"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p010.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p010"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p011.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p011"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p013.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p013"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p014.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p014"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p015.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p015"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p016.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p016"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p019.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p019"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p020.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p020"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p021.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p021"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p022.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p022"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p023.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p023"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p024.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p024"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p025.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p025"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p026.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p026"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p028.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p028"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p029.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p029"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p030.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p030"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p031.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p031"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p034.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p034"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p035.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p035"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p037.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p037"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p040.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p040"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p041.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p041"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p043.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p043"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p044.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p044"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p046.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p046"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p047.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p047"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p048.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p048"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p010.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p010"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p011.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p011"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p013.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p013"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p014.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p014"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p015.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p015"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p016.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p016"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p019.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p019"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p020.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p020"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p021.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p021"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p022.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p022"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p023.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p023"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p024.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p024"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p025.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p025"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p026.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p026"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p028.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p028"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p029.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p029"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p030.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p030"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p031.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p031"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p034.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p034"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p035.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p035"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p037.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p037"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p040.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p040"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p041.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p041"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p043.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p043"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p044.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p044"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p046.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p046"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p047.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p047"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p048.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p048"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p010.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p010"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p011.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p011"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p013.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p013"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p014.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p014"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p015.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p015"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p016.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p016"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p019.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p019"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p020.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p020"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p021.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p021"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p022.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p022"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p023.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p023"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p024.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p024"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p025.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p025"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p026.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p026"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p028.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p028"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p029.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p029"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p030.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p030"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p031.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p031"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p034.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p034"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p035.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p035"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p037.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p037"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p040.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p040"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p041.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p041"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p043.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p043"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p044.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p044"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p046.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p046"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p047.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p047"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p048.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p048"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p010.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p010"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p011.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p011"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p013.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p013"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p014.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p014"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p015.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p015"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p016.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p016"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p019.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p019"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p020.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p020"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p021.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p021"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p022.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p022"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p023.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p023"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p024.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p024"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p025.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p025"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p026.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p026"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p028.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p028"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p029.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p029"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p030.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p030"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p031.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p031"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p034.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p034"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p035.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p035"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p037.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p037"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p040.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p040"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p041.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p041"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p043.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p043"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p044.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p044"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p046.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p046"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p047.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p047"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p048.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p048"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p010.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p010"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p011.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p011"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p013.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p013"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p014.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p014"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p015.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p015"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p016.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p016"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p019.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p019"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p020.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p020"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p021.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p021"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p022.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p022"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p023.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p023"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p024.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p024"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p025.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p025"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p026.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p026"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p028.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p028"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p029.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p029"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p030.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p030"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p031.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p031"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p034.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p034"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p035.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p035"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p037.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p037"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p040.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p040"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p041.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p041"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p043.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p043"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p044.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p044"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p046.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p046"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p047.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p047"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p048.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p048"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p010.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p010"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p011.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p011"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p013.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p013"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p014.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p014"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p015.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p015"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p016.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p016"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p019.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p019"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p020.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p020"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p021.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p021"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p022.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p022"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p023.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p023"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p024.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p024"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p025.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p025"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p026.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p026"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p028.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p028"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p029.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p029"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p030.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p030"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p031.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p031"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p034.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p034"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p035.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p035"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p037.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p037"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p040.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p040"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p041.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p041"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p043.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p043"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p044.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p044"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p046.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p046"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p047.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p047"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p048.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p048"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p010.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p010"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p011.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p011"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p013.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p013"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p014.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p014"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p015.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p015"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p016.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p016"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p019.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p019"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p020.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p020"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p021.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p021"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p022.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p022"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p023.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p023"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p024.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p024"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p025.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p025"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p026.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p026"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p028.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p028"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p029.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p029"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p030.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p030"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p031.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p031"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p034.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p034"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p035.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p035"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p037.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p037"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p040.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p040"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p041.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p041"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p043.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p043"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p044.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p044"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p046.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p046"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p047.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p047"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p048.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p048"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p010.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p010"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p011.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p011"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p013.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p013"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p014.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p014"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p015.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p015"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p016.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p016"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p019.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p019"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p020.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p020"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p021.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p021"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p022.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p022"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p023.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p023"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p024.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p024"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p025.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p025"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p026.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p026"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p028.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p028"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p029.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p029"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p030.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p030"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p031.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p031"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p034.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p034"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p035.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p035"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p037.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p037"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p040.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p040"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p041.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p041"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p043.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p043"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p044.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p044"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p046.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p046"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p047.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p047"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p048.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p048"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p010.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p010"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p011.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p011"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p013.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p013"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p014.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p014"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p015.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p015"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p016.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p016"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p019.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p019"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p020.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p020"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p021.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p021"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p022.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p022"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p023.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p023"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p024.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p024"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p025.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p025"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p026.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p026"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p028.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p028"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p029.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p029"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p030.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p030"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p031.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p031"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p034.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p034"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p035.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p035"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p037.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p037"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p040.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p040"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p041.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p041"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p043.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p043"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p044.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p044"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p046.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p046"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p047.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p047"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p048.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p048"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p010.png",
+    "generator": "reswapper-128",
+    "pair_id": "p010"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p011.png",
+    "generator": "reswapper-128",
+    "pair_id": "p011"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p013.png",
+    "generator": "reswapper-128",
+    "pair_id": "p013"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p014.png",
+    "generator": "reswapper-128",
+    "pair_id": "p014"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p015.png",
+    "generator": "reswapper-128",
+    "pair_id": "p015"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p016.png",
+    "generator": "reswapper-128",
+    "pair_id": "p016"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p019.png",
+    "generator": "reswapper-128",
+    "pair_id": "p019"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p020.png",
+    "generator": "reswapper-128",
+    "pair_id": "p020"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p021.png",
+    "generator": "reswapper-128",
+    "pair_id": "p021"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p022.png",
+    "generator": "reswapper-128",
+    "pair_id": "p022"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p023.png",
+    "generator": "reswapper-128",
+    "pair_id": "p023"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p024.png",
+    "generator": "reswapper-128",
+    "pair_id": "p024"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p025.png",
+    "generator": "reswapper-128",
+    "pair_id": "p025"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p026.png",
+    "generator": "reswapper-128",
+    "pair_id": "p026"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p028.png",
+    "generator": "reswapper-128",
+    "pair_id": "p028"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p029.png",
+    "generator": "reswapper-128",
+    "pair_id": "p029"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p030.png",
+    "generator": "reswapper-128",
+    "pair_id": "p030"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p031.png",
+    "generator": "reswapper-128",
+    "pair_id": "p031"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p034.png",
+    "generator": "reswapper-128",
+    "pair_id": "p034"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p035.png",
+    "generator": "reswapper-128",
+    "pair_id": "p035"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p037.png",
+    "generator": "reswapper-128",
+    "pair_id": "p037"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p040.png",
+    "generator": "reswapper-128",
+    "pair_id": "p040"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p041.png",
+    "generator": "reswapper-128",
+    "pair_id": "p041"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p043.png",
+    "generator": "reswapper-128",
+    "pair_id": "p043"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p044.png",
+    "generator": "reswapper-128",
+    "pair_id": "p044"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p046.png",
+    "generator": "reswapper-128",
+    "pair_id": "p046"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p047.png",
+    "generator": "reswapper-128",
+    "pair_id": "p047"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p048.png",
+    "generator": "reswapper-128",
+    "pair_id": "p048"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p010.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p010"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p011.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p011"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p013.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p013"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p014.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p014"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p015.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p015"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p016.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p016"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p019.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p019"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p020.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p020"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p021.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p021"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p022.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p022"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p023.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p023"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p024.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p024"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p025.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p025"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p026.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p026"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p028.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p028"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p029.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p029"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p030.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p030"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p031.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p031"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p034.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p034"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p035.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p035"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p037.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p037"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p040.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p040"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p041.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p041"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p043.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p043"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p044.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p044"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p046.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p046"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p047.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p047"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p048.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p048"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p010.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p010"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p011.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p011"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p013.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p013"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p014.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p014"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p015.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p015"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p016.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p016"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p019.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p019"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p020.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p020"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p021.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p021"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p022.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p022"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p023.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p023"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p024.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p024"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p025.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p025"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p026.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p026"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p028.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p028"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p029.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p029"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p030.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p030"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p031.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p031"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p034.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p034"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p035.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p035"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p037.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p037"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p040.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p040"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p041.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p041"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p043.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p043"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p044.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p044"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p046.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p046"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p047.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p047"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p048.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p048"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q000.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q000"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q002.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q002"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q004.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q004"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q005.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q005"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q006.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q006"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q007.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q007"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q008.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q008"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q009.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q009"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q013.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q013"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q016.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q016"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q017.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q017"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q019.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q019"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q020.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q020"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q022.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q022"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q023.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q023"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q026.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q026"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q028.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q028"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q030.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q030"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q031.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q031"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q033.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q033"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q034.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q034"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q036.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q036"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q037.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q037"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q038.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q038"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q039.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q039"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q040.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q040"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q041.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q041"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q042.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q042"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q043.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q043"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q044.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q044"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q045.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q045"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q046.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q046"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q048.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q048"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q049.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q049"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q000.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q000"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q002.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q002"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q004.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q004"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q005.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q005"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q006.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q006"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q007.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q007"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q008.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q008"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q009.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q009"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q013.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q013"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q016.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q016"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q017.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q017"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q019.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q019"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q020.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q020"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q022.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q022"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q023.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q023"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q026.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q026"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q028.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q028"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q030.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q030"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q031.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q031"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q033.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q033"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q034.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q034"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q036.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q036"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q037.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q037"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q038.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q038"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q039.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q039"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q040.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q040"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q041.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q041"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q042.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q042"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q043.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q043"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q044.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q044"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q045.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q045"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q046.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q046"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q048.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q048"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q049.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q049"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q000.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q000"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q002.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q002"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q004.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q004"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q005.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q005"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q006.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q006"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q007.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q007"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q008.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q008"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q009.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q009"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q013.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q013"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q016.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q016"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q017.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q017"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q019.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q019"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q020.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q020"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q022.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q022"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q023.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q023"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q026.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q026"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q028.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q028"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q030.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q030"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q031.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q031"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q033.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q033"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q034.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q034"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q036.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q036"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q037.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q037"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q038.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q038"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q039.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q039"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q040.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q040"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q041.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q041"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q042.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q042"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q043.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q043"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q044.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q044"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q045.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q045"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q046.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q046"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q048.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q048"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q049.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q049"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q000.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q000"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q002.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q002"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q004.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q004"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q005.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q005"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q006.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q006"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q007.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q007"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q008.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q008"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q009.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q009"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q013.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q013"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q016.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q016"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q017.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q017"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q019.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q019"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q020.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q020"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q022.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q022"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q023.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q023"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q026.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q026"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q028.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q028"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q030.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q030"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q031.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q031"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q033.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q033"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q034.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q034"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q036.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q036"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q037.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q037"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q038.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q038"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q039.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q039"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q040.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q040"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q041.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q041"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q042.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q042"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q043.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q043"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q044.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q044"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q045.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q045"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q046.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q046"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q048.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q048"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q049.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q049"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q000.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q000"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q002.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q002"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q004.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q004"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q005.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q005"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q006.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q006"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q007.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q007"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q008.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q008"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q009.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q009"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q013.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q013"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q016.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q016"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q017.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q017"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q019.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q019"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q020.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q020"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q022.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q022"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q023.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q023"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q026.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q026"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q028.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q028"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q030.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q030"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q031.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q031"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q033.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q033"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q034.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q034"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q036.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q036"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q037.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q037"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q038.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q038"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q039.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q039"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q040.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q040"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q041.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q041"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q042.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q042"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q043.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q043"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q044.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q044"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q045.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q045"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q046.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q046"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q048.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q048"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q049.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q049"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q000.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q000"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q002.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q002"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q004.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q004"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q005.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q005"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q006.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q006"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q007.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q007"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q008.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q008"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q009.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q009"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q013.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q013"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q016.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q016"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q017.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q017"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q019.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q019"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q020.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q020"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q022.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q022"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q023.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q023"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q026.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q026"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q028.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q028"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q030.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q030"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q031.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q031"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q033.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q033"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q034.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q034"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q036.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q036"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q037.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q037"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q038.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q038"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q039.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q039"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q040.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q040"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q041.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q041"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q042.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q042"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q043.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q043"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q044.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q044"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q045.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q045"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q046.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q046"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q048.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q048"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q049.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q049"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q000.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q000"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q002.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q002"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q004.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q004"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q005.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q005"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q006.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q006"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q007.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q007"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q008.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q008"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q009.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q009"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q013.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q013"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q016.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q016"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q017.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q017"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q019.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q019"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q020.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q020"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q022.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q022"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q023.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q023"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q026.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q026"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q028.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q028"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q030.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q030"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q031.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q031"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q033.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q033"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q034.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q034"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q036.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q036"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q037.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q037"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q038.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q038"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q039.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q039"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q040.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q040"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q041.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q041"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q042.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q042"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q043.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q043"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q044.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q044"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q045.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q045"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q046.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q046"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q048.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q048"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q049.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q049"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q000.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q000"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q002.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q002"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q004.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q004"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q005.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q005"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q006.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q006"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q007.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q007"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q008.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q008"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q009.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q009"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q013.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q013"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q016.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q016"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q017.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q017"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q019.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q019"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q020.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q020"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q022.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q022"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q023.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q023"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q026.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q026"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q028.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q028"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q030.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q030"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q031.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q031"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q033.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q033"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q034.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q034"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q036.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q036"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q037.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q037"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q038.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q038"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q039.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q039"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q040.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q040"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q041.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q041"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q042.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q042"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q043.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q043"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q044.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q044"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q045.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q045"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q046.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q046"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q048.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q048"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q049.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q049"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q000.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q000"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q002.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q002"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q004.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q004"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q005.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q005"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q006.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q006"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q007.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q007"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q008.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q008"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q009.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q009"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q013.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q013"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q016.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q016"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q017.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q017"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q019.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q019"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q020.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q020"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q022.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q022"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q023.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q023"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q026.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q026"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q028.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q028"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q030.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q030"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q031.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q031"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q033.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q033"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q034.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q034"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q036.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q036"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q037.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q037"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q038.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q038"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q039.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q039"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q040.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q040"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q041.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q041"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q042.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q042"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q043.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q043"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q044.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q044"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q045.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q045"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q046.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q046"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q048.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q048"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q049.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q049"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q000.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q000"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q002.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q002"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q004.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q004"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q005.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q005"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q006.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q006"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q007.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q007"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q008.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q008"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q009.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q009"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q013.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q013"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q017.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q017"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q019.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q019"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q020.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q020"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q022.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q022"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q023.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q023"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q026.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q026"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q028.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q028"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q030.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q030"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q031.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q031"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q034.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q034"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q036.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q036"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q037.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q037"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q038.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q038"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q039.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q039"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q040.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q040"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q041.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q041"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q042.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q042"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q043.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q043"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q044.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q044"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q045.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q045"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q046.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q046"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q048.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q048"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q049.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q049"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q000.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q000"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q002.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q002"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q004.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q004"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q005.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q005"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q006.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q006"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q007.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q007"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q008.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q008"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q009.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q009"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q013.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q013"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q017.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q017"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q019.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q019"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q020.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q020"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q022.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q022"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q023.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q023"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q026.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q026"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q028.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q028"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q030.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q030"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q031.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q031"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q034.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q034"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q036.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q036"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q037.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q037"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q038.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q038"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q039.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q039"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q040.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q040"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q041.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q041"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q042.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q042"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q043.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q043"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q044.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q044"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q045.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q045"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q046.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q046"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q048.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q048"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q049.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q049"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q000.png",
+    "generator": "reswapper-128",
+    "pair_id": "q000"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q002.png",
+    "generator": "reswapper-128",
+    "pair_id": "q002"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q004.png",
+    "generator": "reswapper-128",
+    "pair_id": "q004"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q005.png",
+    "generator": "reswapper-128",
+    "pair_id": "q005"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q006.png",
+    "generator": "reswapper-128",
+    "pair_id": "q006"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q007.png",
+    "generator": "reswapper-128",
+    "pair_id": "q007"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q008.png",
+    "generator": "reswapper-128",
+    "pair_id": "q008"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q009.png",
+    "generator": "reswapper-128",
+    "pair_id": "q009"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q013.png",
+    "generator": "reswapper-128",
+    "pair_id": "q013"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q016.png",
+    "generator": "reswapper-128",
+    "pair_id": "q016"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q017.png",
+    "generator": "reswapper-128",
+    "pair_id": "q017"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q019.png",
+    "generator": "reswapper-128",
+    "pair_id": "q019"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q020.png",
+    "generator": "reswapper-128",
+    "pair_id": "q020"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q022.png",
+    "generator": "reswapper-128",
+    "pair_id": "q022"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q023.png",
+    "generator": "reswapper-128",
+    "pair_id": "q023"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q026.png",
+    "generator": "reswapper-128",
+    "pair_id": "q026"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q028.png",
+    "generator": "reswapper-128",
+    "pair_id": "q028"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q030.png",
+    "generator": "reswapper-128",
+    "pair_id": "q030"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q031.png",
+    "generator": "reswapper-128",
+    "pair_id": "q031"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q033.png",
+    "generator": "reswapper-128",
+    "pair_id": "q033"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q034.png",
+    "generator": "reswapper-128",
+    "pair_id": "q034"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q036.png",
+    "generator": "reswapper-128",
+    "pair_id": "q036"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q037.png",
+    "generator": "reswapper-128",
+    "pair_id": "q037"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q038.png",
+    "generator": "reswapper-128",
+    "pair_id": "q038"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q039.png",
+    "generator": "reswapper-128",
+    "pair_id": "q039"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q040.png",
+    "generator": "reswapper-128",
+    "pair_id": "q040"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q041.png",
+    "generator": "reswapper-128",
+    "pair_id": "q041"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q042.png",
+    "generator": "reswapper-128",
+    "pair_id": "q042"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q043.png",
+    "generator": "reswapper-128",
+    "pair_id": "q043"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q044.png",
+    "generator": "reswapper-128",
+    "pair_id": "q044"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q045.png",
+    "generator": "reswapper-128",
+    "pair_id": "q045"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q046.png",
+    "generator": "reswapper-128",
+    "pair_id": "q046"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q048.png",
+    "generator": "reswapper-128",
+    "pair_id": "q048"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q049.png",
+    "generator": "reswapper-128",
+    "pair_id": "q049"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q000.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q000"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q002.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q002"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q004.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q004"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q005.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q005"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q006.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q006"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q007.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q007"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q008.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q008"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q009.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q009"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q013.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q013"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q016.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q016"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q017.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q017"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q019.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q019"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q020.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q020"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q022.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q022"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q023.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q023"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q026.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q026"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q028.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q028"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q030.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q030"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q031.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q031"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q033.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q033"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q034.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q034"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q036.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q036"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q037.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q037"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q038.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q038"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q039.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q039"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q040.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q040"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q041.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q041"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q042.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q042"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q043.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q043"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q044.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q044"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q045.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q045"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q046.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q046"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q048.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q048"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q049.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q049"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q000.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q000"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q002.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q002"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q004.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q004"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q005.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q005"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q006.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q006"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q007.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q007"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q008.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q008"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q009.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q009"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q013.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q013"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q016.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q016"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q017.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q017"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q019.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q019"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q020.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q020"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q022.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q022"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q023.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q023"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q026.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q026"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q028.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q028"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q030.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q030"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q031.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q031"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q033.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q033"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q034.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q034"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q036.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q036"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q037.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q037"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q038.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q038"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q039.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q039"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q040.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q040"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q041.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q041"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q042.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q042"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q043.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q043"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q044.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q044"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q045.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q045"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q046.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q046"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q048.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q048"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q049.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q049"
+   }
+  ],
+  "real": [
+   "dataset/real/sfhq1_0002.jpg",
+   "dataset/real/sfhq1_0003.jpg",
+   "dataset/real/sfhq1_0009.jpg",
+   "dataset/real/sfhq1_0011.jpg",
+   "dataset/real/sfhq1_0014.jpg",
+   "dataset/real/sfhq1_0016.jpg",
+   "dataset/real/sfhq1_0017.jpg",
+   "dataset/real/sfhq1_0018.jpg",
+   "dataset/real/sfhq1_0023.jpg",
+   "dataset/real/sfhq1_0024.jpg",
+   "dataset/real/sfhq1_0030.jpg",
+   "dataset/real/sfhq1_0034.jpg",
+   "dataset/real/sfhq1_0036.jpg",
+   "dataset/real/sfhq1_0037.jpg",
+   "dataset/real/sfhq1_0042.jpg",
+   "dataset/real/sfhq1_0044.jpg",
+   "dataset/real/sfhq1_0045.jpg",
+   "dataset/real/sfhq1_0046.jpg",
+   "dataset/real/sfhq1_0047.jpg",
+   "dataset/real/sfhq1_0049.jpg",
+   "dataset/real/sfhq1_0054.jpg",
+   "dataset/real/sfhq1_0057.jpg",
+   "dataset/real/sfhq1_0060.jpg",
+   "dataset/real/sfhq1_0062.jpg",
+   "dataset/real/sfhq1_0065.jpg",
+   "dataset/real/sfhq1_0076.jpg",
+   "dataset/real/sfhq1_0078.jpg",
+   "dataset/real/sfhq1_0080.jpg",
+   "dataset/real/sfhq1_0081.jpg",
+   "dataset/real/sfhq1_0082.jpg",
+   "dataset/real/sfhq1_0085.jpg",
+   "dataset/real/sfhq1_0091.jpg",
+   "dataset/real/sfhq1_0092.jpg",
+   "dataset/real/sfhq1_0093.jpg",
+   "dataset/real/sfhq1_0094.jpg",
+   "dataset/real/sfhq1_0099.jpg",
+   "dataset/real/sfhq3_0001.jpg",
+   "dataset/real/sfhq3_0002.jpg",
+   "dataset/real/sfhq3_0004.jpg",
+   "dataset/real/sfhq3_0006.jpg",
+   "dataset/real/sfhq3_0007.jpg",
+   "dataset/real/sfhq3_0008.jpg",
+   "dataset/real/sfhq3_0010.jpg",
+   "dataset/real/sfhq3_0013.jpg",
+   "dataset/real/sfhq3_0015.jpg",
+   "dataset/real/sfhq3_0016.jpg",
+   "dataset/real/sfhq3_0020.jpg",
+   "dataset/real/sfhq3_0021.jpg",
+   "dataset/real/sfhq3_0022.jpg",
+   "dataset/real/sfhq3_0023.jpg",
+   "dataset/real/sfhq3_0029.jpg",
+   "dataset/real/sfhq3_0034.jpg",
+   "dataset/real/sfhq3_0037.jpg",
+   "dataset/real/sfhq3_0041.jpg",
+   "dataset/real/sfhq3_0043.jpg",
+   "dataset/real/sfhq3_0047.jpg",
+   "dataset/real/sfhq3_0048.jpg",
+   "dataset/real/sfhq3_0052.jpg",
+   "dataset/real/sfhq3_0054.jpg",
+   "dataset/real/sfhq3_0063.jpg",
+   "dataset/real/sfhq3_0066.jpg",
+   "dataset/real/sfhq3_0067.jpg",
+   "dataset/real/sfhq3_0070.jpg",
+   "dataset/real/sfhq3_0076.jpg",
+   "dataset/real/sfhq3_0078.jpg",
+   "dataset/real/sfhq3_0084.jpg",
+   "dataset/real/sfhq3_0091.jpg",
+   "dataset/real/sfhq3_0093.jpg",
+   "dataset/real/sfhq3_0094.jpg",
+   "dataset/real/sfhq3_0099.jpg"
+  ]
+ },
+ "val": {
+  "fake": [
+   {
+    "file": "dataset/fake/deep-live-cam/p009.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p009"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p009.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p009"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p009.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p009"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p009.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p009"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p009.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p009"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p009.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p009"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p009.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p009"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p009.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p009"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p009.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p009"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p009.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p009"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p009.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p009"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p009.png",
+    "generator": "reswapper-128",
+    "pair_id": "p009"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p009.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p009"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p009.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p009"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p012.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p012"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p018.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p018"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p032.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p032"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p036.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p036"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p039.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p039"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p042.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p042"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p012.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p012"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p018.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p018"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p032.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p032"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p036.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p036"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p039.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p039"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p042.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p042"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p012.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p012"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p018.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p018"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p032.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p032"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p036.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p036"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p039.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p039"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p042.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p042"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p012.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p012"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p018.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p018"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p032.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p032"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p036.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p036"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p039.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p039"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p042.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p042"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p012.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p012"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p018.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p018"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p032.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p032"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p036.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p036"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p039.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p039"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p042.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p042"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p012.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p012"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p018.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p018"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p032.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p032"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p036.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p036"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p039.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p039"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p042.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p042"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p012.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p012"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p018.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p018"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p032.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p032"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p036.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p036"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p039.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p039"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p042.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p042"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p012.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p012"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p018.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p018"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p032.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p032"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p036.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p036"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p039.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p039"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p042.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p042"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p012.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p012"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p018.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p018"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p032.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p032"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p036.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p036"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p039.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p039"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p042.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p042"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p012.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p012"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p018.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p018"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p032.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p032"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p036.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p036"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p039.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p039"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p042.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p042"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p012.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p012"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p018.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p018"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p032.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p032"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p036.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p036"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p039.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p039"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p042.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p042"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p012.png",
+    "generator": "reswapper-128",
+    "pair_id": "p012"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p018.png",
+    "generator": "reswapper-128",
+    "pair_id": "p018"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p032.png",
+    "generator": "reswapper-128",
+    "pair_id": "p032"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p036.png",
+    "generator": "reswapper-128",
+    "pair_id": "p036"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p039.png",
+    "generator": "reswapper-128",
+    "pair_id": "p039"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p042.png",
+    "generator": "reswapper-128",
+    "pair_id": "p042"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p012.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p012"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p018.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p018"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p032.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p032"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p036.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p036"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p039.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p039"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p042.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p042"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p012.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p012"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p018.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p018"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p032.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p032"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p036.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p036"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p039.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p039"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p042.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p042"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q010.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q010"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q018.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q018"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q021.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q021"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q025.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q025"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q027.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q027"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q029.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q029"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q032.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q032"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q035.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q035"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q010.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q010"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q018.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q018"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q021.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q021"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q025.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q025"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q027.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q027"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q029.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q029"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q032.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q032"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q035.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q035"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q010.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q010"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q018.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q018"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q021.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q021"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q025.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q025"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q027.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q027"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q029.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q029"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q032.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q032"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q035.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q035"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q010.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q010"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q018.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q018"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q021.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q021"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q025.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q025"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q027.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q027"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q029.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q029"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q032.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q032"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q035.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q035"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q010.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q010"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q018.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q018"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q021.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q021"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q025.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q025"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q027.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q027"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q029.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q029"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q032.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q032"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q035.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q035"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q010.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q010"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q018.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q018"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q021.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q021"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q025.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q025"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q027.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q027"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q029.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q029"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q032.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q032"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q035.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q035"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q010.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q010"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q018.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q018"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q021.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q021"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q025.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q025"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q027.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q027"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q029.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q029"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q032.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q032"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q035.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q035"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q010.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q010"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q018.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q018"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q021.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q021"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q025.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q025"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q027.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q027"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q029.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q029"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q032.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q032"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q035.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q035"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q010.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q010"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q018.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q018"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q021.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q021"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q025.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q025"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q027.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q027"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q029.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q029"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q032.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q032"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q035.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q035"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q010.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q010"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q018.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q018"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q021.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q021"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q025.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q025"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q027.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q027"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q029.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q029"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q032.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q032"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q035.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q035"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q010.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q010"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q018.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q018"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q021.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q021"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q025.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q025"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q027.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q027"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q029.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q029"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q032.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q032"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q035.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q035"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q010.png",
+    "generator": "reswapper-128",
+    "pair_id": "q010"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q018.png",
+    "generator": "reswapper-128",
+    "pair_id": "q018"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q021.png",
+    "generator": "reswapper-128",
+    "pair_id": "q021"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q025.png",
+    "generator": "reswapper-128",
+    "pair_id": "q025"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q027.png",
+    "generator": "reswapper-128",
+    "pair_id": "q027"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q029.png",
+    "generator": "reswapper-128",
+    "pair_id": "q029"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q032.png",
+    "generator": "reswapper-128",
+    "pair_id": "q032"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q035.png",
+    "generator": "reswapper-128",
+    "pair_id": "q035"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q010.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q010"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q018.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q018"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q021.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q021"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q025.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q025"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q027.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q027"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q029.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q029"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q032.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q032"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q035.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q035"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q010.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q010"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q018.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q018"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q021.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q021"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q025.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q025"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q027.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q027"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q029.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q029"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q032.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q032"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q035.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q035"
+   }
+  ],
+  "real": [
+   "dataset/real/sfhq1_0010.jpg",
+   "dataset/real/sfhq1_0022.jpg",
+   "dataset/real/sfhq1_0026.jpg",
+   "dataset/real/sfhq1_0031.jpg",
+   "dataset/real/sfhq1_0061.jpg",
+   "dataset/real/sfhq1_0064.jpg",
+   "dataset/real/sfhq1_0090.jpg",
+   "dataset/real/sfhq3_0014.jpg",
+   "dataset/real/sfhq3_0019.jpg",
+   "dataset/real/sfhq3_0024.jpg",
+   "dataset/real/sfhq3_0059.jpg",
+   "dataset/real/sfhq3_0080.jpg",
+   "dataset/real/sfhq3_0081.jpg",
+   "dataset/real/sfhq3_0083.jpg",
+   "dataset/real/sfhq3_0087.jpg"
+  ]
+ },
+ "test": {
+  "fake": [
+   {
+    "file": "dataset/fake/deep-live-cam/p005.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p005"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p005.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p005"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p005.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p005"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p005.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p005"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p005.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p005"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p005.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p005"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p005.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p005"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p005.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p005"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p005.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p005"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p005.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p005"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p005.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p005"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p005.png",
+    "generator": "reswapper-128",
+    "pair_id": "p005"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p005.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p005"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p005.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p005"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p017.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p017"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p027.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p027"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p033.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p033"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p038.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p038"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p045.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p045"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/p049.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "p049"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p017.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p017"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p027.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p027"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p033.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p033"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p038.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p038"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p045.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p045"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/p049.png",
+    "generator": "deep-live-cam",
+    "pair_id": "p049"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p017.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p017"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p027.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p027"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p033.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p033"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p038.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p038"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p045.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p045"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/p049.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "p049"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p017.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p017"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p027.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p027"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p033.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p033"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p038.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p038"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p045.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p045"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/p049.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "p049"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p017.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p017"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p027.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p027"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p033.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p033"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p038.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p038"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p045.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p045"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/p049.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "p049"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p017.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p017"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p027.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p027"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p033.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p033"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p038.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p038"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p045.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p045"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/p049.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "p049"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p017.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p017"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p027.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p027"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p033.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p033"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p038.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p038"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p045.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p045"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/p049.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "p049"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p017.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p017"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p027.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p027"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p033.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p033"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p038.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p038"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p045.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p045"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/p049.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "p049"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p017.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p017"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p027.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p027"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p033.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p033"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p038.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p038"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p045.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p045"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/p049.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "p049"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p017.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p017"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p027.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p027"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p033.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p033"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p038.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p038"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p045.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p045"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/p049.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "p049"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p017.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p017"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p027.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p027"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p033.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p033"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p038.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p038"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p045.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p045"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/p049.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "p049"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p017.png",
+    "generator": "reswapper-128",
+    "pair_id": "p017"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p027.png",
+    "generator": "reswapper-128",
+    "pair_id": "p027"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p033.png",
+    "generator": "reswapper-128",
+    "pair_id": "p033"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p038.png",
+    "generator": "reswapper-128",
+    "pair_id": "p038"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p045.png",
+    "generator": "reswapper-128",
+    "pair_id": "p045"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/p049.png",
+    "generator": "reswapper-128",
+    "pair_id": "p049"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p017.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p017"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p027.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p027"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p033.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p033"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p038.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p038"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p045.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p045"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/p049.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "p049"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p017.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p017"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p027.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p027"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p033.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p033"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p038.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p038"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p045.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p045"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/p049.png",
+    "generator": "ghost-unet2",
+    "pair_id": "p049"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q001.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q001"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q003.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q003"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q011.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q011"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q012.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q012"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q014.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q014"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q015.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q015"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q024.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q024"
+   },
+   {
+    "file": "dataset/fake/deep-live-cam/q047.png",
+    "generator": "deep-live-cam",
+    "pair_id": "q047"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q001.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q001"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q003.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q003"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q011.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q011"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q012.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q012"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q014.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q014"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q015.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q015"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q024.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q024"
+   },
+   {
+    "file": "dataset/fake/facefusion-hyperswap_1a_256/q047.jpg",
+    "generator": "facefusion-hyperswap_1a_256",
+    "pair_id": "q047"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q001.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q001"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q003.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q003"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q011.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q011"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q012.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q012"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q014.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q014"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q015.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q015"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q024.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q024"
+   },
+   {
+    "file": "dataset/fake/facefusion-ghost_1_256/q047.jpg",
+    "generator": "facefusion-ghost_1_256",
+    "pair_id": "q047"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q001.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q001"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q003.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q003"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q011.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q011"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q012.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q012"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q014.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q014"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q015.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q015"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q024.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q024"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_256/q047.jpg",
+    "generator": "facefusion-simswap_256",
+    "pair_id": "q047"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q001.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q001"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q003.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q003"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q011.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q011"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q012.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q012"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q014.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q014"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q015.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q015"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q024.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q024"
+   },
+   {
+    "file": "dataset/fake/facefusion-simswap_unofficial_512/q047.jpg",
+    "generator": "facefusion-simswap_unofficial_512",
+    "pair_id": "q047"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q001.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q001"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q003.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q003"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q011.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q011"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q012.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q012"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q014.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q014"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q015.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q015"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q024.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q024"
+   },
+   {
+    "file": "dataset/fake/facefusion-uniface_256/q047.jpg",
+    "generator": "facefusion-uniface_256",
+    "pair_id": "q047"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q001.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q001"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q003.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q003"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q011.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q011"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q012.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q012"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q014.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q014"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q015.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q015"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q024.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q024"
+   },
+   {
+    "file": "dataset/fake/facefusion-hififace_unofficial_256/q047.jpg",
+    "generator": "facefusion-hififace_unofficial_256",
+    "pair_id": "q047"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q001.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q001"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q003.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q003"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q011.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q011"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q012.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q012"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q014.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q014"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q015.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q015"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q024.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q024"
+   },
+   {
+    "file": "dataset/fake/facefusion-blendswap_256/q047.jpg",
+    "generator": "facefusion-blendswap_256",
+    "pair_id": "q047"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q001.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q001"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q003.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q003"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q011.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q011"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q012.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q012"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q014.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q014"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q015.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q015"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q024.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q024"
+   },
+   {
+    "file": "dataset/fake/facefusion-alphaface_256/q047.jpg",
+    "generator": "facefusion-alphaface_256",
+    "pair_id": "q047"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q003.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q003"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q011.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q011"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q012.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q012"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q014.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q014"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q015.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q015"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-3d/q047.jpg",
+    "generator": "faceswap-dlib-3d",
+    "pair_id": "q047"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q003.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q003"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q011.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q011"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q012.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q012"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q014.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q014"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q015.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q015"
+   },
+   {
+    "file": "dataset/fake/faceswap-dlib-2d/q047.jpg",
+    "generator": "faceswap-dlib-2d",
+    "pair_id": "q047"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q001.png",
+    "generator": "reswapper-128",
+    "pair_id": "q001"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q003.png",
+    "generator": "reswapper-128",
+    "pair_id": "q003"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q011.png",
+    "generator": "reswapper-128",
+    "pair_id": "q011"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q012.png",
+    "generator": "reswapper-128",
+    "pair_id": "q012"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q014.png",
+    "generator": "reswapper-128",
+    "pair_id": "q014"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q015.png",
+    "generator": "reswapper-128",
+    "pair_id": "q015"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q024.png",
+    "generator": "reswapper-128",
+    "pair_id": "q024"
+   },
+   {
+    "file": "dataset/fake/reswapper-128/q047.png",
+    "generator": "reswapper-128",
+    "pair_id": "q047"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q001.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q001"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q003.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q003"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q011.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q011"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q012.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q012"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q014.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q014"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q015.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q015"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q024.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q024"
+   },
+   {
+    "file": "dataset/fake/inswapper-codeformer/q047.png",
+    "generator": "inswapper-codeformer",
+    "pair_id": "q047"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q001.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q001"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q003.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q003"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q011.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q011"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q012.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q012"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q014.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q014"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q015.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q015"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q024.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q024"
+   },
+   {
+    "file": "dataset/fake/ghost-unet2/q047.png",
+    "generator": "ghost-unet2",
+    "pair_id": "q047"
+   }
+  ],
+  "real": [
+   "dataset/real/sfhq1_0000.jpg",
+   "dataset/real/sfhq1_0028.jpg",
+   "dataset/real/sfhq1_0033.jpg",
+   "dataset/real/sfhq1_0041.jpg",
+   "dataset/real/sfhq1_0055.jpg",
+   "dataset/real/sfhq1_0070.jpg",
+   "dataset/real/sfhq1_0098.jpg",
+   "dataset/real/sfhq3_0011.jpg",
+   "dataset/real/sfhq3_0028.jpg",
+   "dataset/real/sfhq3_0030.jpg",
+   "dataset/real/sfhq3_0031.jpg",
+   "dataset/real/sfhq3_0044.jpg",
+   "dataset/real/sfhq3_0057.jpg",
+   "dataset/real/sfhq3_0086.jpg",
+   "dataset/real/sfhq3_0088.jpg"
+  ]
+ }
+}

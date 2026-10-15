@@ -34,3 +34,11 @@
 {"minutes": 160.5, "finished_at": "2026-10-08T11:20:59.564741+00:00"}
 {"minutes": 0.0, "finished_at": "2026-10-08T11:21:00.075905+00:00"}
 {"minutes": 0.0, "finished_at": "2026-10-08T11:21:00.490747+00:00"}
+=== reswapper-128
+{"generator": "reswapper-128", "ok": 18, "failed": 0, "skipped": 32, "minutes": 4.6, "finished_at": "2026-10-15T03:44:13.825830+00:00"}
+=== inswapper-codeformer
+{"generator": "inswapper-codeformer", "ok": 50, "failed": 0, "skipped": 0, "minutes": 18.2, "finished_at": "2026-10-15T04:02:26.562107+00:00"}
+=== ghost-unet2
+{"generator": "ghost-unet2", "ok": 50, "failed": 0, "skipped": 0, "minutes": 10.0, "finished_at": "2026-10-15T04:12:27.471436+00:00"}
+done; failed: none
+-unet2", "ok": 50, "failed": 0, "skipped": 0, "minutes": 10.0, "finished_at": "2026-10-15T04:12:27.471436+00:00"}
